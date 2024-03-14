@@ -1,0 +1,49 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.29.
+ * Time: 20:55
+ */
+
+?>
+
+    <h1><?= $this->translate($datas['name']); ?></h1>
+
+    <a class="btn btn-sm btn-default" href="<?= $this->url('user', ['action' => 'edit', 'id' => $id]) ?>">
+        <span class="glyphicon glyphicon-edit"></span>
+        <?= $this->translate('Módosítás'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-danger"
+       data-title="<?= $datas['name'] ?>"
+       data-warning-text="<?= $this->translate('Biztos benne, hogy törli?') ?>"
+       data-keyboard="true"
+       data-url="<?= $this->url('user', ['action' => 'delete']) ?>"
+       data-toggle="modal"
+       data-id="<?= $id; ?>"
+       data-input-name="User[]"
+       data-okbutton="<?= $this->translate('Törlés'); ?>"
+       href="#Modal"
+        >
+        <span class="glyphicon glyphicon-remove"></span>
+        <?= $this->translate('Törlés'); ?>
+    </a>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <table class="table">
+                <tbody>
+                <?php foreach ($datas as $key => $dataRow): ?>
+                    <tr>
+                        <td><span class="basedata-title"><?= $this->translate($headerData[$key]); ?></span></td>
+                        <td><span class="basedata-value"></span> <?= $dataRow ?></span></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+<?= $this->modalPopup(); ?>

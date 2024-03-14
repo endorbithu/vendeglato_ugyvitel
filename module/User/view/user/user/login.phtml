@@ -1,0 +1,17 @@
+<?php
+// within a view script
+$form = $this->form;
+$form->prepare();
+
+// Assuming the "contact/process" route exists...
+$form->setAttribute('action', $this->url('login'));
+
+// Set the method attribute for the form
+$form->setAttribute('method', 'post');
+$formLabel = $this->plugin('formLabel');
+
+
+echo $this->form()->render($form);
+?>
+
+

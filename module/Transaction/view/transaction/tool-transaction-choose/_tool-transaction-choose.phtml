@@ -1,0 +1,37 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.14.
+ * Time: 18:40
+ */
+$this->headScript()->prependFile($this->basePath('js/select2/select2.min.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/select2/select2.init.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/ingr-transaction-choose/autofill-ahref.js'));
+
+?>
+
+<h1><?= $this->translate($title); ?></h1>
+<select id="from-storage" class="select2">
+    <?php foreach ($from as $fromOption): ?>
+        <option value="<?= $fromOption->getId() ?>"
+<?php if ($selectedFrom == $fromOption->getId()) echo ' selected="selected" '; ?>
+><?= $fromOption->getName() ?></option>
+    <?php endforeach; ?>
+</select>
+<span class="glyphicon glyphicon-arrow-right"> </span>
+<select id="to-storage" class="select2">
+    <?php foreach ($to as $toOption): ?>
+        <option value="<?= $toOption->getId() ?>"
+<?php if ($selectedTo == $toOption->getId()) echo ' selected="selected" '; ?>
+><?= $toOption->getName() ?></option>
+    <?php endforeach; ?>
+</select>
+<div>
+    <a id="forward-button" class="btn btn-primary btn-lg" href="#">Ok</a>
+</div>
+
+<input type="hidden" id="transaction-type-link"
+       value="<?= $this->url('tooltransactionchoose', ['action' => $transactionType]); ?>">
+
+<!-- TODO: #154 befejezni a javascriptet -->

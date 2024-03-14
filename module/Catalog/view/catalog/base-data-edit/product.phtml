@@ -1,0 +1,44 @@
+<?php
+
+
+$tableName = 'productContainIngredient';
+
+//itt lehet megdolgozni az egyes oszlopokat
+
+foreach ($v['allIngredients'] as $key => $data) {
+    $v['allIngredients'][$key][1] = '<a href="' . $data[1] . '">' . $data[1] . '</a>';
+}
+
+/** @var \Application\View\Helper\DatatableHelper $productsIngredientTable */ //Így DatatableHelper típusként fogja a phpstorm kezelni
+$productsIngredientTable = $this->datatable();
+$productsIngredientTable->setNaked();
+$productsIngredientTable->initTable($tableName, [$this->translate('ID'), $this->translate('Név'), $this->translate('Mennyiség'), $this->translate('ME.')], $v['allIngredients'], null, null);
+$productsIngredientTable->addSelectable($productsIngredientTable::SELECT);
+$productsIngredientTable->addSelectedRow($v['containingIngredientIds']);
+$productsIngredientTable->addInput([['inputType' => 'number', 'inputName' => 'ingredientAmount', 'whichColumn' => 2, 'valueColumn' => 2]]);
+$productsIngredientTable->noFormTag();
+$ingredientsTable = $productsIngredientTable->render();
+
+
+?>
+
+<h1><?= $v['title']; ?></h1>
+
+
+<?=  $this->form()->render($form); ?>
+
+
+<div id="product-product-ingredients">
+    <label for="product-product-ingredients"><?= $this->translate('Alapanyagok'); ?> </label>
+    <div class="row datatable-in-form">
+        <div class="col-lg-5">
+             <?= $ingredientsTable; ?>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("[for=product-vat-group]").before($("#product-product-ingredients"));
+</script>
+
+

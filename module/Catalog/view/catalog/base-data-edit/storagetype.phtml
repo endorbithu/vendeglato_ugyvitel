@@ -1,0 +1,43 @@
+<?php
+
+
+$tableName = 'stuffInStorageType';
+
+//itt lehet megdolgozni az egyes oszlopokat
+
+foreach ($v['allStuff'] as $key => $data) {
+    $v['allStuff'][$key][1] = '<a href="' . $data[0] . '">' . $data[1] . '</a>';
+}
+
+/** @var \Application\View\Helper\DatatableHelper $stuffInStorageTypeTable */ //Így DatatableHelper típusként fogja a phpstorm kezelni
+$stuffInStorageTypeTable = $this->datatable();
+$stuffInStorageTypeTable->setNaked();
+$stuffInStorageTypeTable->initTable($tableName, [$this->translate('ID'), $this->translate('Név')], $v['allStuff'], null, null);
+$stuffInStorageTypeTable->addSelectable($stuffInStorageTypeTable::SELECT);
+$stuffInStorageTypeTable->addSelectedRow($v['containingStuffIds']);
+$stuffInStorageTypeTable->noFormTag();
+$stuffTable = $stuffInStorageTypeTable->render();
+
+
+?>
+
+<h1><?= $v['title']; ?></h1>
+
+
+<?=  $this->form()->render($form); ?>
+
+
+<div id="storage-type-stuff-in-storage-type">
+    <label for="storage-type-stuff-in-storage-type"><?= $this->translate('Elemek'); ?> </label>
+    <div class="row datatable-in-form">
+        <div class="col-lg-5">
+             <?= $stuffTable; ?>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("[for=storage-is-real-storage-type]").before($("#storage-type-stuff-in-storage-type"));
+</script>
+
+

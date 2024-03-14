@@ -1,0 +1,255 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.zf-green {
+    color: #68b604;
+}
+
+.btn-success {
+    background-color: #57a900;
+    background-image: -moz-linear-gradient(top, #70d900, #57a900);
+    background-image: -ms-linear-gradient(top, #70d900, #57a900);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
+    background-image: -webkit-linear-gradient(top, #70d900, #57a900);
+    background-image: -o-linear-gradient(top, #70d900, #57a900);
+    background-image: linear-gradient(top, #70d900, #57a900);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    background-color: #57a900;
+}
+
+.btn-success:active, .btn-success.active {
+    background-color: #57a900;
+}
+
+div.container a.navbar-brand > img {
+    display: inline;
+    margin-right: 4px;
+}
+
+div.alert {
+    margin-bottom: 9px;
+    padding: 10px;
+}
+
+.alert > p, .alert > ul {
+    padding-left: 17px;
+}
+
+fieldset > label {
+    display: block;
+}
+
+.form-element > label {
+    width: 100%;
+}
+
+.form-element > label > span {
+    display: block;
+}
+
+.form-element > label > input {
+    width: 100%;
+}
+
+.form-element > ul > li {
+    padding-left: 0;
+}
+
+.form-element > input {
+    width: 100%;
+}
+
+.form-element > input[type="submit"] {
+    width: 100%;
+}
+
+.container {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.selectedRow {
+    background-color: #ffcccc;
+}
+
+.coverCheckbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.coverCheckboxCont {
+    position: relative;
+}
+
+.datatable-toolbar {
+    margin: 12px 0;
+}
+
+.datatable-extrainput {
+    width: 50px;
+}
+
+.navbar-brand {
+    font-size: 0.9em;
+}
+
+form > fieldset {
+    margin-bottom: 10px;
+}
+
+form > fieldset > label {
+    margin-top: 9px;
+}
+
+form > fieldset > div > label {
+    margin-top: 9px;
+}
+
+form > fieldset > legend {
+    display: none;
+}
+
+form > fieldset > ul > li {
+    background-color: #f2dede;
+    padding: 3px;
+}
+
+form > ul > li {
+
+    background-color: #f2dede;
+    padding: 2px;
+}
+
+input[type="submit"] {
+    margin: 10px auto;
+}
+
+.delete-btn {
+    margin: 10px auto;
+}
+
+input.form-control {
+    width: 45%;
+}
+
+textarea.form-control {
+    width: 45%;
+}
+
+.select2 {
+    width: 45%;
+}
+
+form > fieldset > pre {
+    width: 45%;
+}
+
+.datatable-in-form {
+    width: 45%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+td.ingredient-list {
+    padding: 3px;
+    margin: 2px;
+}
+
+a.basedata-list {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a.biglist {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+table.menulist > tbody > tr > td {
+    padding: 10px 0;
+}
+
+a.btn {
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+.price-in-button {
+    font-weight: bold;
+    color: red;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.big-modal-text {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+
+.modal-body > p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+footer > p {
+    text-align: center;
+    color: #bbb;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.year-input {
+    width: 30px;
+}
+
+.month-input {
+    width: 30px;
+}
+
+.day-input {
+    width: 30px;
+}
+
+#date-time-dt {
+    width: 80px;
+    display: inline-block;
+}
+
+.dataTable > thead > tr > td,
+.dataTable > thead > tr > th
+{
+    white-space: nowrap;
+}
+
+.time-grey {
+    color: #bbb;
+}

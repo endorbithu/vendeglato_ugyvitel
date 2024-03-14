@@ -1,0 +1,57 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.19.
+ * Time: 1:03
+ */
+
+?>
+
+
+<h1><?= $title ?></h1>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+<div id="stock-actions">
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('ingrtransaction', ['action' => 'stockcorrection', 'from' => $storageId, 'to' => $storageId]); ?>"
+        >
+        <span class="glyphicon glyphicon-list"></span>
+        <?= $this->translate('Leltár'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('ingrtransactionchoose', ['action' => 'receive']) . '?to=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-import"></span>
+        <?= $this->translate('Bevételezés'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('ingrtransactionchoose', ['action' => 'return']) . '?from=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-export"></span>
+        <?= $this->translate('Visszárú'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('ingrtransactionchoose', ['action' => 'move']) . '?from=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-arrow-right"></span>
+        <?= $this->translate('Átvételezés'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('ingrtransactionchoose', ['action' => 'discardingredient']) . '?from=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-trash"></span>
+        <?= $this->translate('Selejtezés'); ?>
+    </a>
+
+</div>
+
+<script>
+    $("#stockshow-datatableblock").prepend($("#stock-actions"));
+</script>

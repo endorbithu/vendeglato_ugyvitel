@@ -1,0 +1,23 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.30.
+ * Time: 9:15
+ */
+?>
+
+<h1><?= $this->translate('Felhasználók'); ?></h1>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+
+<a class="btn btn-sm btn-default" id="new-content"
+   href="<?= $this->url('user', ['action' => 'edit', 'id' => 'new']) ?>">
+    <span class="glyphicon glyphicon-edit"></span>
+    <?= $this->translate('Új'); ?>
+</a>
+
+<script>
+    $(".datatable-toolbar").prepend($("#new-content"));
+</script>

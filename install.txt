@@ -1,0 +1,6 @@
+/dump.sql : teljes adatbázis dumb
+
+config/autoload/local.php : adatbázis adatok megadása
+
+
+Apache root direction a /public mappára mutasson

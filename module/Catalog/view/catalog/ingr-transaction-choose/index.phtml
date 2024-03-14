@@ -1,0 +1,59 @@
+<h1><?= $this->translate('Készletműveletek') ?></h1>
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table menulist">
+            <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'move']) ?>">
+                        <?= $this->translate('Átvételezés'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'receive']) ?>">
+                        <?= $this->translate('Bevételezés'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'return']) ?>">
+                        <?= $this->translate('Visszárú'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'stockcorrection']) ?>">
+                        <?= $this->translate('Készletkorrekció (leltár)'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'discardingredient']) ?>">
+                        <?= $this->translate('Alapanyag selejtezés'); ?></a>
+                </td>
+            </tr>
+           <!-- TODO: #143  <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'discardproduct']) ?>">
+                        <?= $this->translate('Termék selejtezés'); ?></a>
+                </td>
+            </tr>-->
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('ingrtransactionchoose', ['action' => 'universal']) ?>">
+                        <?= $this->translate('Univerzális alapanyag-mozgatás'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

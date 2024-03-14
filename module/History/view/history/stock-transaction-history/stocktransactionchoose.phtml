@@ -1,0 +1,25 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.11.02.
+ * Time: 9:56
+ */
+?>
+
+
+<?php
+$this->headScript()->prependFile($this->basePath('js/select2/select2.min.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/select2/select2.init.js'));
+?>
+
+<h1><?= $this->translate('Készletműveletek') ?></h1>
+
+<?= $this->form()->render($form); ?>
+
+
+<span id="tosign"> - </span>
+<script>
+    $(".day-from").after($("#tosign"));
+    $('.select2').prepend('<option class="empty-option" selected="selected" value="">Összes...</option>');
+</script>

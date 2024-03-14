@@ -1,0 +1,51 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.19.
+ * Time: 1:03
+ */
+
+?>
+
+
+<h1><?= $title ?></h1>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+<div id="stock-actions">
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('moneytransaction', ['action' => 'moneystockcorrection', 'from' => $storageId, 'to' => $storageId]); ?>"
+        >
+        <span class="glyphicon glyphicon-list"></span>
+        <?= $this->translate('Pénztárkorrekció'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneyin']) . '?to=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-import"></span>
+        <?= $this->translate('Befizetés'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneyout']) . '?from=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-export"></span>
+        <?= $this->translate('Kifizetés'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-default bulkaction"
+       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneymove']) . '?from=' . $storageId; ?>"
+        >
+        <span class="glyphicon glyphicon-arrow-right"></span>
+        <?= $this->translate('Pénzeszköz áthelyezés'); ?>
+    </a>
+    
+
+</div>
+
+<script>
+    $("#stockshow-datatableblock").prepend($("#stock-actions"));
+</script>

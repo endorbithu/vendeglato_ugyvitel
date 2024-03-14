@@ -1,0 +1,58 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.19.
+ * Time: 1:23
+ */
+?>
+
+<h1><?= $this->translate('Pénztárak'); ?></h1>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+<h1><?= $this->translate('Pénztárműveletek') ?></h1>
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table menulist">
+            <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneyin']) ?>">
+                        <?= $this->translate('Befizetés'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneyout']) ?>">
+                        <?= $this->translate('Kifizetés'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneymove']) ?>">
+                        <?= $this->translate('Pénzeszköz áthelyezés'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneystockcorrection']) ?>">
+                        <?= $this->translate('Pénztárkorrekció'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('moneytransactionchoose', ['action' => 'moneyuniversal']) ?>">
+                        <?= $this->translate('Univerzális pénzeszköz-mozgatás'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

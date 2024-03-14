@@ -1,0 +1,73 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.11.01.
+ * Time: 17:04
+ */
+
+
+?>
+
+<h1> <?= $this->translate($stockTransaction->getTransactionType()->getName()) ?> (ID:<?= $stockTransaction->getId(); ?>
+    )</h1>
+
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table">
+            <tbody>
+            <tr>
+                <td><span class="stocktransaction-title"><?= $this->translate('Dátum/idő'); ?></span></td>
+                <td>
+                    <span class="bold"> <?= $stockTransaction->getDateTime()->format('Y.m.d'); ?></span>
+                    <span
+                        class="stocktransaction-value"><?= $stockTransaction->getDateTime()->format('H:i:s'); ?></span>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="stocktransaction-title"><?= $this->translate('Felhasználó'); ?></span></td>
+                <td><span
+                        class="stocktransaction-value"><a
+                            href="<?= $this->url('user', ['action' => 'show', 'id' => $stockTransaction->getUser()->getId()]); ?>"> <?= $stockTransaction->getUser()->getName(); ?></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="stocktransaction-title"><?= $this->translate('Tárolóból'); ?></span></td>
+                <td><span
+                        class="stocktransaction-value"> <a
+                            href="<?= $this->url('basedata', ['action' => 'storage', 'id' => $stockTransaction->getFromStorage()->getId()]); ?>"><?= $stockTransaction->getFromStorage()->getName() ?> </a></span>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="stocktransaction-title"><?= $this->translate('Tárolóba'); ?></span></td>
+                <td><span
+                        class="stocktransaction-value"><a
+                            href="<?= $this->url('basedata', ['action' => 'storage', 'id' => $stockTransaction->getToStorage()->getId()]); ?>"> <?= $stockTransaction->getToStorage()->getName(); ?></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="stocktransaction-title"><?= $this->translate('Egyéb információ'); ?></span></td>
+                <td><span class="stocktransaction-value"> <?= $stockTransaction->getMoreInfo(); ?></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<?php if (!empty($datatableOrderItem)): ?>
+    <h2><?= $this->translate('Fizetett tételek') . ' (' .$this->money($total) .')'; ?></h2>
+    <?= $this->datatable()->renderFromModel($datatableOrderItem); ?>
+<?php elseif (!empty($datatableProduct)): ?>
+    <h2><?= $this->translate('Termékmozgás'); ?></h2>
+    <?= $this->datatable()->renderFromModel($datatableProduct); ?>
+<?php elseif (!empty($datatableIngredient)): ?>
+    <h2><?= $this->translate('Alapanyagmozgás'); ?></h2>
+    <?= $this->datatable()->renderFromModel($datatableIngredient); ?>
+<?php endif; ?>
+
+
+
+
+

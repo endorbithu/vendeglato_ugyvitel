@@ -1,0 +1,49 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.11.
+ * Time: 10:48
+ */
+?>
+
+    <h1><?= $this->translate($v['datas']['name']); ?></h1>
+
+    <a class="btn btn-sm btn-default" href="<?= $this->url('basedataedit', ['action' => $v['baseDataType'], 'id' => $v['id']]) ?>">
+        <span class="glyphicon glyphicon-edit"></span>
+        <?= $this->translate('Módosítás'); ?>
+    </a>
+
+    <a class="btn btn-sm btn-danger"
+       data-title="<?= $v['datas']['name'] ?>"
+       data-warning-text="<?= $this->translate('Biztos benne, hogy törli?') ?>"
+       data-keyboard="true"
+       data-url="<?= $this->url('basedataedit', ['action' => $v['baseDataType'], 'id' => 'delete']) ?>"
+       data-toggle="modal"
+       data-id="<?= $v['id']; ?>"
+       data-input-name="<?= $v['baseDataType']; ?>[]"
+       data-okbutton="<?= $this->translate('Törlés'); ?>"
+       href="#Modal"
+        >
+        <span class="glyphicon glyphicon-remove"></span>
+        <?= $this->translate('Törlés'); ?>
+    </a>
+
+
+    <div class="row">
+        <div class="col-lg-6">
+            <table class="table">
+                <tbody>
+                <?php foreach ($v['datas'] as $key => $dataRow): ?>
+                    <tr>
+                        <td><span class="basedata-title"><?= $this->translate($v['headerData'][$key]); ?></span></td>
+                        <td><span class="basedata-value"> <?= $dataRow ?></span></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+<?= $this->modalPopup(); ?>

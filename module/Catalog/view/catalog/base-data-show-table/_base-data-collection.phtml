@@ -1,0 +1,52 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.09.24.
+ * Time: 10:59
+ */
+
+
+/** @var \Application\View\Helper\DatatableHelper $tableproba */ //Így DatatableHelper típusként fogja a phpstorm kezelni
+$tableproba = $this->datatable();
+$tableproba->initTable($v['actionName'], $v['headerData'], $v['datas'], 2, null);
+$tableproba->addSelectable($tableproba::CHECKBOX);
+$tableproba->addAction([
+    ['name' => $this->translate('Törlés'), 'actionUrl' => $this->url('basedataedit', ['action' => $v['baseDataType'], 'id' => 'delete']), 'warningText' => $this->translate('Biztos hogy véglegesen törli ez(eke)t a tétel(eke)t?'), 'icon' => 'remove'],
+]);
+
+$table = $tableproba->render();
+
+
+?>
+<h1><?= $v['title'] ?></h1>
+
+
+<div class="more-info"><?= $v['moreInfo']; ?></div>
+
+    <?= $table; ?>
+
+<a class="btn btn-sm btn-default" id="new-content"
+   href="<?= $this->url('basedataedit', ['action' => $v['baseDataType'], 'id' => 'new']) ?>">
+    <span class="glyphicon glyphicon-edit"></span>
+    <?= $this->translate('Új'); ?>
+</a>
+
+<script>
+    $(".datatable-toolbar").prepend($("#new-content"));
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

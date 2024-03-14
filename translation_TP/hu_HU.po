@@ -1,0 +1,4344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TudasPiac\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-15 22:17-0700\n"
+"PO-Revision-Date: 2016-04-05 23:23+0200\n"
+"Last-Translator: Akos Kiss <akos.kiss@tudaspiac.hu>\n"
+"Language-Team: TudasPiac <info@tudaspiac.hu>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: Menu
+msgid "Home"
+msgstr "Főoldal"
+
+msgid "Home page"
+msgstr "Főoldal"
+
+msgid "Courses"
+msgstr "Kurzusok"
+
+msgid "Organizations"
+msgstr "Intézmények"
+
+msgid "Teachers"
+msgstr "Tanárok"
+
+#: Teachers' room menu items
+msgid "Teachers' room"
+msgstr "Tanári szoba"
+
+msgid "Dashboard"
+msgstr "Irányítópult"
+
+msgid "Teacher profile"
+msgstr "Tanári profilom"
+
+msgid "My courses"
+msgstr "Kurzusaim"
+
+msgid "My tests"
+msgstr "Tudáspróbáim"
+
+#: Director's room menu items
+msgid "Director's room"
+msgstr "Igazgatói szoba"
+
+#: msgid "Dashboard" msgstr "Irányítópult"
+msgid "Timeline"
+msgstr "Idővonal"
+
+msgid "Subscription"
+msgstr "Előfizetésem"
+
+#: msgid "Organizations" msgstr "Intézményeim" "Teachers" "Tanáraim"
+msgid "Students"
+msgstr "Hallgatók"
+
+#: msgid "Courses" msgstr "Kurzusok"
+msgid "Sales"
+msgstr "Értékesítéseim"
+
+msgid "Report"
+msgstr "Riport"
+
+msgid "Sales report"
+msgstr "Értékesítési riport"
+
+msgid "User report"
+msgstr "Felhasználói riport"
+
+msgid "Teacher applications"
+msgstr "Jelentkezések"
+
+#: Admin menu items
+msgid "Admin"
+msgstr "Admin"
+
+#: msgid "Dashboard" msgstr "Irányítópult" "Organizations" "Intézményeim"
+msgid "Users"
+msgstr "Felhasználók"
+
+msgid "All courses"
+msgstr "Összes kurzus"
+
+msgid "Categories"
+msgstr "Kategóriák"
+
+msgid "Tags"
+msgstr "Címkék"
+
+msgid "Affiliate marketing"
+msgstr "Partner marketing"
+
+msgid "Purchases"
+msgstr "Vásárlások"
+
+msgid "Slideshows"
+msgstr "Diavetítés"
+
+msgid "Email templates"
+msgstr "Email sablonok"
+
+msgid "Site config"
+msgstr "Oldal beállítások"
+
+#: My menu items
+msgid "My"
+msgstr "Saját"
+
+#: msgid "Introduction:" msgstr "Bemutatkozás:"
+msgid "Profile"
+msgstr "Profilom"
+
+msgid "Purchased courses"
+msgstr "Vásárolt kurzusok"
+
+msgid "Become a teacher"
+msgstr "Tanárnak jelentkezem"
+
+msgid "Logout"
+msgstr "Kilépés"
+
+msgid "Log in"
+msgstr "Belépés"
+
+msgid "Sign up"
+msgstr "Regisztráció"
+
+#: --------------------------------------------------------------------------------------
+#: Layout template
+msgid ""
+"Insufficient system setup. Registration and sales are disabled until setup "
+"is fixed. You have to fill the followings config values otherwise the system "
+"will not work properly:"
+msgstr ""
+"A rendszer nincs rendesen beállítva. A regisztráció és a kersekedés "
+"javításig letiltva. Az alábbi beállításokat ki kell tölteni, különben a "
+"rendszer nem fog rendesen működni:"
+
+msgid "DEMO ENVIRONMENT"
+msgstr "DEMÓ RENDSZER"
+
+msgid "TEST ENVIRONMENT"
+msgstr "TESZT RENDSZER"
+
+msgid "DEVELOPMENT ENVIRONMENT"
+msgstr "FEJLESZTŐI RENDSZER"
+
+msgid ""
+" - no real sales activity, no production grade performance, but fully "
+"featured"
+msgstr " - valós értékesítés a rendszerben nem történik!"
+
+msgid ""
+"To give you the best experience, we use cookies. By browsing our site you "
+"agree to our use of cookies."
+msgstr ""
+"Ez a weboldal sütiket (cookie) használ. Az oldal további használatával "
+"elfogadod a sütik használatát."
+
+msgid "Find out more"
+msgstr "További információ"
+
+msgid "Accept cookies"
+msgstr "Elfogadom"
+
+msgid "What are Cookies?"
+msgstr "Mik azok a sütik?"
+
+msgid ""
+"Cookies are text files containing small amounts of information which are "
+"downloaded to your device when you visit our website. Cookies do lots of "
+"different jobs, like letting you navigate between pages efficiently, "
+"remembering your preferences, and generally improving the user experience. "
+"They can also help to ensure that adverts you see online are more relevant "
+"to you and your interests."
+msgstr ""
+"A sütik kis szövegfájlok, melyeket a webhely az oldalaira látogató "
+"felhasználó számítógépén, illetve mobilkészülékén tárol el. A sütik "
+"segítségével a honlap bizonyos ideig megjegyzi az általad végzett műveleteket és személyes "
+"beállításokat (pl. a felhasználói nevet, a nyelvet, a betűméretet és a honlap "
+"megjelenítésével kapcsolatos többi egyedi beállítást), így neked nem kell "
+"azokat újra megadnod minden egyes alkalommal, amikor honlapunkra ellátogatsz, "
+"vagy az egyik lapról átnavigálsz egy másikra."
+
+msgid "Close"
+msgstr "Bezár"
+
+msgid "Terms"
+msgstr "ÁSZF"
+
+msgid "Privacy policy"
+msgstr "Adatkezelés"
+
+msgid "Requirements"
+msgstr "Követelmények"
+
+msgid "Contact"
+msgstr "Kapcsolat"
+
+msgid "All rights reserved!"
+msgstr "Minden jog fenntartva!"
+
+msgid "system"
+msgstr "rendszer"
+
+#: --------------------------------------------------------------------------------------
+#: Contact page
+msgid "Service Provider"
+msgstr "Üzemeltető"
+
+msgid "Hosting Service Provider"
+msgstr "Tárhelyszolgáltató"
+
+#: --------------------------------------------------------------------------------------
+#: System requirements page
+
+msgid "System requirements"
+msgstr "Rendszerkövetelmények"
+
+msgid "In order to have seamless experience and take advantage of all the features, your system needs to meet the minimum system requirements."
+msgstr "A szolgáltatás funkcióinak zökkenőmentes használatához szükséges, hogy a rendszered megfeleljen az alábbi követelményeknek."
+
+msgid "Please, read the followings if you have compatibility or other issues."
+msgstr "Ha bármilyen kompatibilitási vagy egyéb problémát tapasztalsz, akkor kérlek nézd át, hogy az eszközöd, amiről az oldalt használod, megfelel-e a minimális rendszerkövetelményeknek!"
+
+msgid "Web browser"
+msgstr "Böngésző"
+
+msgid "most recent version"
+msgstr "legfrissebb verzió"
+
+msgid "NOT supported web browsers"
+msgstr "NEM TÁMOGATOTT böngészők"
+
+msgid "Mozilla Firefox on Windows XP"
+msgstr "Mozilla Firefox Windows XP rendszeren"
+
+msgid "Operating system"
+msgstr "Operációs rendszer"
+
+msgid "Internet connection"
+msgstr "Internet kapcsolat"
+
+msgid "Minimum bandwith for desktop devices or notebook computers:"
+msgstr "Minimális sávszélesség asztali számítógépek és laptopok esetén:"
+
+msgid "Minimum bandwith for mobile devices:"
+msgstr "Minimális sávszélesség mobil eszközök (okos telefon, táblagép) esetén:"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+#: --------------------------------------------------------------------------------------
+#: Home page msgid "Teachers" msgstr "Tanárok"
+msgid "Video"
+msgstr "Videó"
+
+msgid "Best selling"
+msgstr "Legnépszerűbb"
+
+msgid "courses"
+msgstr "kurzusok"
+
+msgid "Best selling courses"
+msgstr "Legnépszerűbb kurzusok"
+
+msgid "Latest courses"
+msgstr "Legújabb kurzusok"
+
+msgid "Learn more"
+msgstr "Tudj meg többet!"
+
+msgid "No courses found."
+msgstr "Nincs a megadott feltételeknek megfelelő kurzus!"
+
+msgid "Need help?"
+msgstr "Segítségre van szükséged?"
+
+msgid "Ask our support center!"
+msgstr "Keresd fel Támogatási Központunk munkatársait!"
+
+msgid "or"
+msgstr "vagy"
+
+msgid "We have no courses yet. :("
+msgstr "Még nem töltöttünk fel kurzust. :("
+
+#: --------------------------------------------------------------------------------------
+#: Login page msgid "Log in" msgstr "Belépés"
+
+msgid "Sign in to your account"
+msgstr "Jelentkezz be a felhasználói fiókodba!"
+
+msgid "or go back to the order form"
+msgstr "vagy ugorj vissza a megrendeléshez"
+
+msgid "Forgotten password"
+msgstr "Elfelejtett jelszó"
+
+#: --------------------------------------------------------------------------------------
+#: Sign up page msgid "Sign up" msgstr "Regisztráció"
+msgid "Sign up disabled."
+msgstr "A regisztráció jelenleg le van tiltva."
+
+msgid "Sign up and learn!"
+msgstr "Regisztrálj és fejleszd magad!"
+
+msgid "Last Name"
+msgstr "Vezetéknév"
+
+msgid "First Name"
+msgstr "Keresztnév"
+
+msgid "Phone"
+msgstr "Telefonszám"
+
+
+#: msgid "Privacy policy" msgstr "Adatvédelmi nyolatkozat"
+#: --------------------------------------------------------------------------------------
+#: Password recovery - Forgotten password page "Forgotten password"
+#: "Elfelejtett jelszó"
+msgid "Email address"
+msgstr "Email cím megadása"
+
+msgid ""
+"Enter the email address you used when you made your account. We'll send you "
+"an e-mail with instructions to create a new password."
+msgstr ""
+"Add meg a regisztrált email címedet és egy levélben elküldjük a teendőket a "
+"jelszó megváltoztatásához!"
+
+msgid "Submit"
+msgstr "Elküld"
+
+msgid "Unable to send message. Try again later."
+msgstr "A küldés sikertelen. Kérem próbálja újra később!"
+
+msgid "Unknown email address."
+msgstr "A megadott email címet a rendszer nem ismeri."
+
+#: --------------------------------------------------------------------------------------
+#: Password recovery - Mail sent page
+msgid "Mail has been sent"
+msgstr "Üzenet elküldve"
+
+msgid "We've sent you an email with instructions to change your password."
+msgstr "A jelszóváltoztató üzenetet elküldtük."
+
+msgid ""
+"You can create a new password by following the instructions provided in the "
+"message."
+msgstr ""
+"Új jelszót létrehozni a megadott e-mail címre küldött üzenet segítségével "
+"tudsz."
+
+msgid "Back to the log in page"
+msgstr "Vissza a bejelentkező oldalra"
+
+#: --------------------------------------------------------------------------------------
+#: Password recovery - Change password page
+msgid "Changing the password"
+msgstr "Jelszó megváltoztatása"
+
+msgid "Provide a new password"
+msgstr "Új jelszó megadása"
+
+msgid "New password"
+msgstr "Új jelszó"
+
+msgid "New password:"
+msgstr "Új jelszó:"
+
+msgid "Confirm password"
+msgstr "Jelszó megerősítése"
+
+msgid "Confirm password:"
+msgstr "Jelszó megerősítése:"
+
+msgid "Your password has been changed"
+msgstr "A jelszavad megváltozott"
+
+#: --------------------------------------------------------------------------------------
+#: Password recovery - Invalid token
+msgid "Invalid token"
+msgstr "Ismeretlen token"
+
+msgid "The token is not valid."
+msgstr "A token nem érvényes."
+
+#: --------------------------------------------------------------------------------------
+#: Password recovery - changed
+msgid "Password changed"
+msgstr "Megváltozott jelszó"
+
+msgid "Use your new password to log in!"
+msgstr "Mostantól az új jelszavaddal tudsz belépni a rendszerbe!"
+
+msgid "Jump to the log in page!"
+msgstr "Ugrás a bejelentkező oldalra"
+
+#: --------------------------------------------------------------------------------------
+#: Password recovery - Expired token
+msgid "Expired token"
+msgstr "Lejárt token"
+
+msgid "Your password changer token has been expired."
+msgstr "A jelszóváltoztató token lejárt!"
+
+msgid ""
+"The token you are trying to use is older than 3 hours or token was already "
+"used to change your password."
+msgstr ""
+"A felhasználni kívánt token 3 óránál régebbi vagy már fel lett használva."
+
+msgid ""
+"If you need a new token to change your password click the Send me a new "
+"token button."
+msgstr ""
+"Ha új jelszóváltoztató tokent akarsz igényelni, kattints az Új "
+"jelszóváltoztató tokent kérek gombra!"
+
+msgid "Send me a new token"
+msgstr "Új jelszóváltoztató tokent kérek"
+
+#: --------------------------------------------------------------------------------------
+#: Courses page msgid "Courses" msgstr "Kurzusok"
+msgid "Search"
+msgstr "Keresés"
+
+msgid "Filter"
+msgstr "Szűrő"
+
+msgid "Delete filter"
+msgstr "Szűrő törlése"
+
+msgid "Category"
+msgstr "Kategória"
+
+msgid "Level"
+msgstr "Szint"
+
+msgid "Tag"
+msgstr "Címke"
+
+msgid "Found"
+msgstr "Találatok"
+
+msgid "course(s)"
+msgstr "kurzus"
+
+msgid "Order by"
+msgstr "Rendezés"
+
+msgid "direction"
+msgstr "szerint"
+
+msgid "rating"
+msgstr "értékelés"
+
+msgid "title"
+msgstr "cím"
+
+msgid "upload date"
+msgstr "feltöltés dátuma"
+
+msgid "price"
+msgstr "ár"
+
+msgid "descending"
+msgstr "csökkenő"
+
+msgid "ascending"
+msgstr "növekvő"
+
+#: --------------------------------------------------------------------------------------
+#: Course details page - materials msgid "Courses" msgstr "Kurzusok"
+msgid "Course materials"
+msgstr "Kurzus anyagok"
+
+msgid "Recommended books"
+msgstr "Könyvajánló"
+
+msgid "Test"
+msgstr "Tudáspróba"
+
+msgid "Ratings"
+msgstr "Értékelés"
+
+msgid "WARNING! Playing videos can cause high data usages. Be sure to use Wifi connection instead of cellular network to avoid overage charges."
+msgstr "FIGYELEM! A videólejátszás nagy adatforgalommal jár, ami után a mobilszolgáltatód díjat számolhat fel."
+
+msgid "Waiting for payment. After we receive your payment the course will be available."
+msgstr "A kurzust megrendelted, de még nem fizetted ki. Fizetés után a kurzust elérhetővé tesszük."
+
+msgid "Continue payment"
+msgstr "Fizetés folytatása"
+
+
+msgid "Purchase is disabled at the moment."
+msgstr "A rendszerben a vásárlás jelenleg nem engedélyezett."
+
+msgid "days access"
+msgstr "napos hozzáférés"
+
+msgid "Available for purchase until"
+msgstr "Megvásárolható a következő időpontig:"
+
+msgid "Course description"
+msgstr "Kurzus leírása"
+
+#: msgid "Level" msgstr "Szint" "Category" "Kategória"
+msgid "Rating"
+msgstr "Értékelés"
+
+msgid "No ratings"
+msgstr "Nincs értékelés"
+
+msgid "Language"
+msgstr "Nyelv"
+
+msgid "Upload"
+msgstr "Feltöltés"
+
+msgid "Modified"
+msgstr "Módosítva"
+
+msgid "Edit course"
+msgstr "Kurzus szerkesztése"
+
+msgid "Course videos"
+msgstr "Kurzus videók"
+
+msgid "pcs"
+msgstr "db"
+
+msgid "Available after purchasing the course"
+msgstr "Vásárlás után elérhető"
+
+msgid "Will be available after:"
+msgstr "Ekkor lesz elérhető:"
+
+#: msgid "Tags" msgstr "Címkék"
+msgid "This course is not active."
+msgstr "A kurzus nem aktív."
+
+msgid "Expiry date"
+msgstr "Hozzáférés megszűnése"
+
+msgid "will not expire"
+msgstr "nem szűnik meg"
+
+#: --------------------------------------------------------------------------------------
+#: Course sales page
+
+msgid "Not available for purchase at the moment."
+msgstr "Jelenleg nem megvásárolható."
+
+msgid "Who Is This Course For?"
+msgstr "Kinek szól ez a kurzus?"
+
+msgid "Why Take This Course?"
+msgstr "Miért érdemes megvennem?"
+
+msgid "What Will I Get Out Of This Course?"
+msgstr "Mivel leszek több, ha megveszem a kurzust?"
+
+msgid "About This Course"
+msgstr "A kuzusról"
+
+msgid "User Ratings"
+msgstr "Hallgatók véleménye"
+
+msgid "Instructor"
+msgstr "Oktató"
+
+msgid "On-Demand Access for %s days"
+msgstr "%s napos online hozzáférés"
+
+msgid "Available virtual seats"
+msgstr "Elérhető darabszám"
+
+msgid "Original price"
+msgstr "Eredeti ár"
+
+msgid "Sale price"
+msgstr "Akciós ár"
+
+msgid "Savings"
+msgstr "Megtakarítás"
+
+msgid "On-Demand Access"
+msgstr "Online hozzáférés"
+
+msgid "I want it NOW!"
+msgstr "Megrendelem MOST!"
+
+msgid "Quiz questions"
+msgstr "Teszt kérdés"
+
+msgid "Other course materials"
+msgstr "Letölthető fájl"
+
+#: --------------------------------------------------------------------------------------
+#: Checkout page
+
+msgid "Connection error"
+msgstr "Hálózati hiba. Nem lehet kapcsolódni a kiszolgálóhoz."
+
+msgid "Are you a member?"
+msgstr "Már van felhasználói fiókod?"
+
+msgid "Sign in!"
+msgstr "Jelentkezz be!"
+
+msgid "Order Summary"
+msgstr "Rendelés áttekintése"
+
+msgid "Coupon"
+msgstr "Kupon"
+
+msgid "Coupon code"
+msgstr "Kupon kód"
+
+msgid "Apply coupon"
+msgstr "Kupon beváltása"
+
+msgid "Checking coupon..."
+msgstr "Kupon ellenőrzése..."
+
+msgid "Coupon accepted"
+msgstr "Kupon elfogadva"
+
+msgid "Please, enter a coupon code!"
+msgstr "Kérlek, adj meg egy kupon kódot!"
+
+msgid "Coupon check error."
+msgstr "Kupon beváltás sikertelen."
+
+msgid "Coupon is not valid."
+msgstr "Érvénytelen kupon kód."
+
+msgid "required fields"
+msgstr "kötelező mezők"
+
+msgid "Password:"
+msgstr "Jelszó:"
+
+msgid "Account information"
+msgstr "Felhasználói profil"
+
+msgid "Bank transfer"
+msgstr "Átutalás"
+
+msgid "Transfer you payment using ordinary bank transfer."
+msgstr "Megrendelés ellenértékének fizetése hagyományos banki átutalással."
+
+msgid "Credit card or Barion account"
+msgstr "Bankkártya vagy Barion egyenleg"
+
+msgid "Secure and confortable online payment is provided by Barion Payment Inc. License number: H-EN-I-1064/2013. Your card details are not disclosed to our shop."
+msgstr "A kényelmes és biztonságos online fizetést a Barion Payment Zrt. biztosítja, MNB engedély száma: H-EN-I-1064/2013. Bankkártyád adatai áruházunkhoz nem jutnak el."
+
+msgid "By submitting your order, you agree to our %s and that you have read our %s."
+msgstr "A megrendeléssel elfogadom és magamra kötelező érvényűnek tekintem az %s és az %s dokumentumokban leírtakat."
+
+msgid "Submit order"
+msgstr "Megrendelem"
+
+msgid "3 easy steps"
+msgstr "3 egyszerű lépés"
+
+msgid "Fill in the checkout form and hit Checkout"
+msgstr "Töltsd ki a megrendelő űrlapot és kattints a Megrendelem gombra!"
+
+msgid "Pay for your courses"
+msgstr "Fizesd ki a megrendelésed árát!"
+
+msgid "You are ready, we will give you access instantly to your course materials"
+msgstr "Kész vagy. A fizetés visszaigazolása után AZONNAL hozzáférhetsz a kurzusaidhoz."
+
+msgid "Fast and convenient"
+msgstr "Kényelmes és gyors"
+
+msgid "Learn anytime you want"
+msgstr "Tanulj akkor, amikor szeretnél!"
+
+msgid "Instant access from anywhere"
+msgstr "Azonnali hozzáférés a kurzusokhoz bárhonnan"
+
+msgid "Electronic invoice (PDF)"
+msgstr "Elektronikus számlát küldünk PDF-ben"
+
+msgid "Automatic order confirmation"
+msgstr "A rendelésedet automatikusan visszaigazoljuk"
+
+msgid "Let us know if there's anything we can do for you - We are happy to help."
+msgstr "Szívesen segítünk, ha bármiben elakadtál vagy kérdésed lenne."
+
+msgid "Please send us an email at %s !"
+msgstr "Küldj nekünk emailt a következő címre: %s !"
+
+msgid "Order"
+msgstr "Megrendelés"
+
+msgid "Order NOW!"
+msgstr "Rendeld meg MOST!"
+
+#: --------------------------------------------------------------------------------------
+#: Thank you page
+
+msgid "Thank you!"
+msgstr "Köszönjük!"
+
+msgid "Please, sign in to access your courses!"
+msgstr "A kurzusokhoz való hozzáféréshez be kell jelentkezned."
+
+#: --------------------------------------------------------------------------------------
+#: Payment error
+
+msgid "PAYMENT ERROR"
+msgstr "Hiba a fizetés során"
+
+#: --------------------------------------------------------------------------------------
+#: Payment processing
+
+msgid "Please wait while we finish your order!"
+msgstr "Kérlek várj, amíg véglegesítjük a rendelésed!"
+
+
+#: --------------------------------------------------------------------------------------
+#: Course list mini
+msgid "Purchasable until"
+msgstr "Megvásárolható eddig:"
+
+#: msgid "No ratings" msgstr "Nincs értékelés"
+msgid "Upload date"
+msgstr "Feltöltés dátuma"
+
+# #-#-#-#-#  0catalog.po (TudasPiac)  #-#-#-#-#
+# :msgstr "Riport"
+#: msgid "Level" msgstr "Szint" "credit card" "bankkártya" "transfer"
+#: "átutalás"
+#: --------------------------------------------------------------------------------------
+#: Director's room\Report "Report" "Organization" "Intézmény" "Course"
+#: "Kurzus"
+msgid "Purchase date"
+msgstr "Vásárlás dátuma"
+
+msgid "Total length"
+msgstr "Teljes hossz"
+
+msgid "Number of videos"
+msgstr "Videók száma"
+
+msgid "Number of files"
+msgstr "Fájlok száma"
+
+#: msgid "View cart" msgstr "Kosárban"
+msgid "Purchased"
+msgstr "Megnézem"
+
+msgid "My course"
+msgstr "Saját"
+
+msgid "Free course"
+msgstr "Ingyenes"
+
+msgid "Pending"
+msgstr "Függő"
+
+msgid "Locked"
+msgstr "Lezárt"
+
+#: --------------------------------------------------------------------------------------
+#: Course details page - Test
+msgid "Course materials are not available during the test."
+msgstr ""
+"Jelenleg még tart a tudáspróbád erre a kurzusra. A tudáspróba ideje alatt a "
+"kurzus részletei nemelérhetőek!"
+
+msgid "You have to finish your test until"
+msgstr "A futó tudáspróba érvényessége"
+
+msgid "Test is available only for those who purchased this course."
+msgstr "Csak vásárlóknak elérhető!"
+
+msgid "To access the test you have to buy this course."
+msgstr ""
+"A tudáspróba megtekintéséhez és kitöltéséhez meg kell vásárolnod a kurzust!"
+
+#: msgid "Buy this course!" msgstr "Vásárold meg!" "Add to cart" "Kosárba"
+#: "Already in the "Kosárban van." "View "Kosárban"
+msgid "Previous results"
+msgstr "Korábbi eredmények"
+
+msgid "Date"
+msgstr "Dátum"
+
+msgid "Number of questions"
+msgstr "Kérdések száma"
+
+msgid "Good/Bad/Missed"
+msgstr "Jó/Rossz/Kihagyott válaszok"
+
+msgid "Points"
+msgstr "Pontszám"
+
+msgid "Percent"
+msgstr "Elért százalék"
+
+msgid "Success criteria"
+msgstr "Sikerkritérium"
+
+msgid "Spent time"
+msgstr "Felhasznált idő"
+
+msgid "Result"
+msgstr "Eredmény"
+
+msgid "Results"
+msgstr "Eredmények"
+
+msgid "No date"
+msgstr "Nincs dátum"
+
+msgid "SUCCESSFULL"
+msgstr "SIKERES"
+
+msgid "FAILED"
+msgstr "SIKERTELEN"
+
+msgid "CANCELLED"
+msgstr "MEGSZAKÍTOTT"
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "Details"
+msgstr "Részletek"
+
+msgid "Time available"
+msgstr "Rendelkezésre álló idő"
+
+msgid "Allowed test run count"
+msgstr "Ennyiszer lehet kitölteni a tesztet"
+
+msgid "Unlimited"
+msgstr "Nincs korlátozva"
+
+msgid "Availability time frame"
+msgstr "A teszt a következő időszak alatt érhető el"
+
+msgid "Start"
+msgstr "Indítás"
+
+msgid ""
+"Your current test is still running. You can' start a new test until the "
+"current test finished."
+msgstr ""
+"Jelenleg még tart a tudáspróbád erre a kurzusra. A tudáspróba ideje alatt "
+"nem tudsz új tudáspróbát indítani!"
+
+msgid "Previous"
+msgstr "Előző"
+
+msgid "Next"
+msgstr "Következő"
+
+msgid "point"
+msgstr "pont"
+
+msgid "points"
+msgstr "pont"
+
+msgid "Evaluate"
+msgstr "Végeztem"
+
+msgid "Unanswered questions"
+msgstr "Megválaszolatlan kérdések"
+
+msgid "All questions are answered."
+msgstr "Nincsen megválaszolatlan kérdésed."
+
+msgid "What's next?"
+msgstr "Mit tehetsz most?"
+
+msgid "Until you have time, you can review your answers."
+msgstr ""
+"Amíg az időd nem jár le, még átnézheted a kérdésekre adott válaszaidat."
+
+msgid ""
+"If you feel ready, just click on the Finish button to get your test "
+"evaluated!"
+msgstr ""
+"Ha ki szeretnéd értékeltetni az eredményedet, akkor kattints a Végeztem "
+"gombra!"
+
+msgid "Your time is up!"
+msgstr "A rendelkezésre álló idő lejárt!"
+
+msgid "To evaluate your test click on the Finish button!"
+msgstr "A tudáspróba értékeléséhez kattints a Végeztem gombra!"
+
+msgid "Congratulations"
+msgstr "Gratulálunk"
+
+msgid ", you passed the test successfully"
+msgstr ", sikeresen teljesítetted a tesztet"
+
+msgid "Unfortunately, you failed"
+msgstr "Sajnos ez most nem sikerült"
+
+msgid "Evaluated answers"
+msgstr "Kiértékelt válaszok"
+
+msgid "Good answer"
+msgstr "Helyes válasz!"
+
+msgid "Bad answer"
+msgstr "Hibás válasz!"
+
+msgid "Not answered"
+msgstr "Nem töltötted ki!"
+
+msgid "Explanation:"
+msgstr "Magyarázat:"
+
+msgid "Finish"
+msgstr "Végeztem"
+
+msgid "Cancel"
+msgstr "Megszakítás"
+
+msgid "The test can not be evaluated because you cancelled it."
+msgstr "A tudáspróbát korábban megszakítottad, így azt nem lehet kiértékelni."
+
+#: --------------------------------------------------------------------------------------
+#: Course details page - Rating
+msgid "Course average rating:"
+msgstr "A kurzus átlagos értékelése:"
+
+msgid "You rated:"
+msgstr "A te értékelésed:"
+
+msgid "Rate this course!"
+msgstr "Értékeld a kurzust!"
+
+msgid "Was this review helpful?"
+msgstr "Hasznos volt ez az értékelés?"
+
+msgid "for users only"
+msgstr "tagok szavazhatnak"
+
+msgid "Be the first to rate this course!"
+msgstr "Legyél az első értékelője ennek a kurzusnak!"
+
+msgid "Rating:"
+msgstr "Értékelés:"
+
+msgid "(5) Excellent"
+msgstr "(5) Kiváló"
+
+msgid "(4) Good"
+msgstr "(4) Jó"
+
+msgid "(3) Average"
+msgstr "(3) Közepes"
+
+msgid "(2) Below average"
+msgstr "(2) Nem túl jó"
+
+msgid "(1) Poor"
+msgstr "(1) Rémes"
+
+msgid "Összegzés:"
+msgstr "Summary:"
+
+msgid "Summarize your experience"
+msgstr "Pár szavas összegzés"
+
+msgid "Description:"
+msgstr "Leírás:"
+
+msgid ""
+"What was your experience? Did you liked the course or not? Share your "
+"thoughts!"
+msgstr ""
+"Itt fejtsd ki hosszabban a véleményed! (Miért pont ennyi csillagot adál? Mi "
+"tetszett vagy mi nem? Kinek ajánlanád ezt a kurzust?)"
+
+# :msgstr "Tanárok"
+# :msgstr "Tanárok"
+#: --------------------------------------------------------------------------------------
+#: Teachers page - teacherlist msgid "Teachers" index
+msgid "Introduction"
+msgstr "Bemutatkozás"
+
+msgid "Doesn't have any courses."
+msgstr "A rendszerben még nincsen kurzusa."
+
+#: msgid "Courses" msgstr "Kurzusok" "pcs" "db" "Organizations" "Intézmények"
+#: --------------------------------------------------------------------------------------
+#: Teachers page - not active
+msgid "Accessing teacher profile is not allowed."
+msgstr "A kért tanári profil megtekintése jelenleg nem engedélyezett!"
+
+msgid "Teacher is not active"
+msgstr "Tanár nem aktív"
+
+#: --------------------------------------------------------------------------------------
+#: Organizations page - orglist index Rating (teachers/organizations) msgid
+#: "Rating" msgstr "Értékelés" "No ratings" "Nincs értékelés"
+msgid "customer reviews"
+msgstr "értékelő osztályzata alapján"
+
+# msgid "No courses found."
+# msgstr "Még nincsnek kurzusok."
+# :msgstr "Tanárok"
+#: --------------------------------------------------------------------------------------
+#: Organizations page - orglist msgid "Introduction:" msgstr "Bemutatkozás:"
+#: "Courses" "Kurzusok" "Teachers" not active
+msgid "Accessing organization profile is not allowed."
+msgstr "A kért intézmény profil megtekintése jelenleg nem engedélyezett!"
+
+
+#: --------------------------------------------------------------------------------------
+#: Cart - view cart page item table
+
+msgid "Item preview"
+msgstr "Tétel előnézete"
+
+msgid "Item"
+msgstr "Tétel"
+
+msgid "Price (incl. VAT)"
+msgstr "Ár (bruttó)"
+
+msgid "Total"
+msgstr "Fizetendő"
+
+#: --------------------------------------------------------------------------------------
+#: Cart - billing data page
+
+msgid "Billing name:"
+msgstr "Számlázási név:"
+
+msgid "Company name/name of a private individual"
+msgstr "Cégnév vagy magánszemély neve"
+
+msgid "Tax number:"
+msgstr "Adószám:"
+
+msgid "Tax number"
+msgstr "Adószám"
+
+msgid "Zip code:"
+msgstr "Irányítószám:"
+
+msgid "Zip"
+msgstr "Irsz."
+
+msgid "City:"
+msgstr "Település:"
+
+msgid "City"
+msgstr "Település"
+
+msgid "Address:"
+msgstr "Cím:"
+
+msgid "Address"
+msgstr "Utca, házszám"
+
+msgid ""
+"Not allowed character found. Use only alphabets, numbers, space, \"-\" and "
+"\".\"."
+msgstr ""
+"A számlázási névben csak betű, szám, kötőjel, pont és szóköz szerepelhet."
+
+msgid ""
+"Not allowed character found. Use only uppercase alphabets, numbers and \"-\"."
+msgstr "Az adószámban csak nagybetű, szám és kötőjel szerepelhet."
+
+msgid ""
+"Not allowed character found. Use only uppercase alphabets, numbers, space "
+"and \"-\"."
+msgstr ""
+"A postai irányítószámban csak betű, szám, kötőjel, szóköz és pont "
+"szereplhet. "
+
+#: msgid "Not allowed character found. Use only alphabets, space and \"-\"."
+#: msgstr "A település nevében csak betű, szóköz és kötőjel
+#: szerepelhet."
+msgid ""
+"Not allowed character found. Use only alphabets, numbers, space, \"-\", \"."
+"\", \",\", \"/\"."
+msgstr ""
+"Ebben a mezőben csak betűk, számok és a következő karakterek szerepelhetnek: "
+"\" \", \".\", \",\", \"/\", \"-\"."
+
+#: msgid "Next step" msgstr "Következő lépés" "Next" "Tovább" "The cart is
+#: empty." "A kosár üres." "Choose courses and add them into the cart!"
+#: "Válaszd ki a számodra érdekes kurzust és tedda kosárba!"
+#: --------------------------------------------------------------------------------------
+#: Cart - choose payment method page
+
+msgid "Ordinary bank transfer"
+msgstr "Átutalás"
+
+msgid "Credit card"
+msgstr "Bankkártyás fizetés"
+
+
+#: msgid "Next step" msgstr "Következő lépés" "Next" "Tovább" "The cart is
+#: empty." "A kosár üres." "Choose courses and add them into the cart!"
+#: "Válaszd ki a számodra érdekes kurzust és tedda kosárba!"
+#: --------------------------------------------------------------------------------------
+#: Cart - review order page
+msgid "Billing data"
+msgstr "Számlázási adatok"
+
+#: msgid "Billing name:" msgstr "Számlázási név:" "Tax number" "Adószám"
+msgid "Billing address:"
+msgstr "Számlázási cím:"
+
+msgid "Payment method"
+msgstr "Fizetési mód"
+
+msgid "Checkout"
+msgstr "Megrendelem"
+
+
+#: msgid "Terms And Conditions" msgstr "Általános Szerződési Feltételek"
+#: "Next step" "Következő lépés" "The cart is empty." "A kosár üres."
+#: "Choose courses and add them into the cart!" "Válaszd ki a számodra
+#: érdekes kurzust és tedda kosárba!"
+#: --------------------------------------------------------------------------------------
+#: Cart - transfer page
+
+msgid "Transfer details"
+msgstr "Információk az átutaláshoz"
+
+msgid "Thank you for your order!"
+msgstr "Köszönjük a megrendelést!"
+
+msgid "Transferee"
+msgstr "Kedvezményezett"
+
+msgid "Bank"
+msgstr "Bank"
+
+msgid "Bank account number"
+msgstr "Számlaszám"
+
+#: msgid "Total" msgstr "Fizetendő"
+msgid "Notice"
+msgstr "Közlemény"
+
+msgid ""
+"You've chosen to pay you order using via ordinary bank transfer. Below you "
+"can find the details for the bank transfer."
+msgstr ""
+"A megrendelés fizetélséhez a banki átutalást választottad. Az alábbiakban "
+"megtalálod az átutaláshoz szükséges adatokat."
+
+msgid "You can find the payment due date in the Proforma invoice:"
+msgstr "A fizetési határidőt a díjbekérő tartalmazza, mely itt elérhető:"
+
+msgid "Download"
+msgstr "Letöltés"
+
+msgid "You can download the proforma invoice later here:"
+msgstr "A díjbekérőt a későbbiekben bármikor letöltheted innét:"
+
+#: msgid "Purchased courses" msgstr "Vásárolt kurzusok"
+msgid ""
+"We inform you that we'll create your final invoice after we receive your "
+"payment."
+msgstr "A számlát a fizetés után állítjuk ki, melyről emailben értesítünk."
+
+msgid ""
+"We'll activate your ordered courses after we receive you payment. Until that "
+"the ordered courses will be in pending state."
+msgstr ""
+"A megrendelt kurzus(ok) a banki utalás beérkezését követően kerül(nek) "
+"aktiválásra. Ezen idő alatt a kurzusok \"Függő\" állapotban vannak."
+
+msgid "Error during checkout. Please, contact our customer service!"
+msgstr ""
+"Hiba történt a megrendelés során, kérem keresse fel ügyfélszolgálatunkat a "
+"következő elérhetőségek egyikén."
+
+msgid "Please, refer to this order ID"
+msgstr "Hivatkozzon erre a rendelési számra"
+
+#: --------------------------------------------------------------------------------------
+#: Cart - start payment page
+msgid "Error: payment start error"
+msgstr "Hiba: nem kezdeményezhető fizetés."
+
+msgid "Payment start OK"
+msgstr "Fizetés kezdeményezés sikeres."
+
+#: --------------------------------------------------------------------------------------
+#: Cart - Payment result
+msgid "Barion payment ERROR"
+msgstr "Sikertelen Barion fizetés."
+
+msgid "Order ID"
+msgstr "Rendelésszám"
+
+msgid "Try again"
+msgstr "Újra próbálom"
+
+msgid "Cancel order"
+msgstr "Megredelés törlése"
+
+msgid "The payment transaction was cancelled by the user."
+msgstr "A fizetési tranzakciót a felhasználó megszakította."
+
+msgid "The payment transaction is already open."
+msgstr "A fizetés még nem történt meg."
+
+msgid "Thank you for your purchase!"
+msgstr "Köszönjük a vásárlást!"
+
+msgid "You can find your purchase course(s) here:"
+msgstr "A megvásárolt kurzus(oka)t itt érheted el:"
+
+#: msgid "Purchased courses" msgstr "Vásárolt kurzusok"
+msgid "Payment ID"
+msgstr "Fizetés azonosítója"
+
+msgid "Payment status"
+msgstr "Fizetés állapota"
+
+#: --------------------------------------------------------------------------------------
+#: Cart - Error: empty cart
+#msgid "Your cart is empty"
+#msgstr "A kosár üres"
+
+#msgid "Add courses to the cart."
+#msgstr "Tegyél kurzusokat a kosárba!"
+
+msgid "Back to the Courses page"
+msgstr "Vissza a kurzusokhoz"
+
+#: --------------------------------------------------------------------------------------
+#: Cart - Error: sales disabled
+msgid "Purchase disabled"
+msgstr "Kereskedés lezárva"
+
+msgid ""
+"Dear Customer! We inform you that we are currently working on the system, "
+"therefore you can not purchase courses at the moment. Please, come back "
+"later!"
+msgstr ""
+"Tisztelt Vásárlónk!Tájékoztatjuk, hogy rendszerünkben a vásárlást jelenleg "
+"leállítottuk. Kérjük kersse fel oldalunkat később!"
+
+#: msgid "Back to the Courses page" msgstr "Vissza a kurzusokhoz"
+#: --------------------------------------------------------------------------------------
+#: Cart - Error: Active payment process
+
+
+msgid ""
+"You have started a payment process. You can not add/remove items to/from "
+"your cart until you won't finish the ongoing transaction."
+msgstr ""
+"A fizetési tranzakció befejezéséig (fizetés vagy megszakítás) a rendelést a "
+"rendszer zárolta."
+
+#: --------------------------------------------------------------------------------------
+#: Shop - Expired
+msgid "OFFER NOT AVAILABLE"
+msgstr "AZ AJÁNLAT NEM ELÉRHETŐ"
+
+msgid "Sorry, but this offer is currently not available for purchase!"
+msgstr "Sajnos ez az ajánlatunk már nem él."
+
+#: --------------------------------------------------------------------------------------
+#: Shop - payment Window Expired
+
+msgid "Payment window expired!"
+msgstr "A fizetésre szánt időkeret lejárt!"
+
+#: --------------------------------------------------------------------------------------
+#: Shop - payment in progress
+
+msgid "Payment in progress"
+msgstr "Fizetési tranzakció folyamatban"
+
+#: --------------------------------------------------------------------------------------
+#: Shop - already purhcased
+
+msgid "You've already ordered this"
+msgstr "Ezt a kurzust már megrendelted."
+
+
+#: --------------------------------------------------------------------------------------
+#: My\Profile msgid "My" msgstr "Saját" "Profile" "Profilom"
+msgid "Save"
+msgstr "Mentés"
+
+msgid "State"
+msgstr "Státusz"
+
+msgid "Personal details"
+msgstr "Személyes adatok"
+
+msgid "Last name:"
+msgstr "Vezetéknév:"
+
+msgid "First name:"
+msgstr "Keresztnév:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "(unchangeable)"
+msgstr "(nem változtatható)"
+
+msgid "Phone:"
+msgstr "Telefonszám:"
+
+msgid "Role:"
+msgstr "Szerepkör:"
+
+msgid "Old password"
+msgstr "Régi jelszó"
+
+msgid "Old password:"
+msgstr "Régi jelszó:"
+
+msgid "Change password"
+msgstr "Jelszó megváltoztatása"
+
+msgid "Additional information"
+msgstr "További tudnivalók"
+
+msgid "Teacher profile:"
+msgstr "Tanári profil:"
+
+msgid "jump to teacher profile"
+msgstr "ugrás a tanári profilra"
+
+msgid "Teacher page:"
+msgstr "Tanári oldal:"
+
+msgid "jump to teacher page"
+msgstr "ugrás a tanári oldalra"
+
+msgid "Teacher page visibility:"
+msgstr "Tanári oldal láthatósága:"
+
+msgid "Visible"
+msgstr "Látható"
+
+msgid "Not visible"
+msgstr "Nem látható"
+
+msgid "Sign up:"
+msgstr "Regisztráció:"
+
+msgid "Last login:"
+msgstr "Utolsó belépés:"
+
+msgid "My organization"
+msgstr "Itt vagyok igazgató"
+
+msgid "course"
+msgstr "kurzus"
+
+#: msgid "courses" msgstr "kurzusok"
+msgid "teacher"
+msgstr "tanár"
+
+msgid "teachers"
+msgstr "tanár"
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Disabled"
+msgstr "Letiltva"
+
+msgid "I'm a teacher here"
+msgstr "Itt vagyok tanár"
+
+msgid "Change picture"
+msgstr "Kép megváltoztatása"
+
+msgid "Rotate CCW"
+msgstr "Forgatás balra"
+
+msgid "Rotate CW"
+msgstr "Forgatás jobbra"
+
+msgid "All changes are saved"
+msgstr "Változások elmentve"
+
+msgid "You have unsaved changes."
+msgstr "Még nem mentettél el minden változást."
+
+msgid "The password has been changed"
+msgstr "A jelszó megváltozott"
+
+msgid "Delete profile"
+msgstr "Profil törlése"
+
+msgid "You are about to delete your profile. Are you sure?"
+msgstr "Arra készülsz, hogy töröld a felhasználói profilodat. Biztos vagy benne?"
+
+msgid "Please, provide your password to confirm"
+msgstr "A megerősítéshez add meg a jelszavadat"
+
+msgid "YES, I want to delete my profile!"
+msgstr "IGEN, törölni akarom a profilomat!"
+
+msgid "Wrong password."
+msgstr "Helytelen jelszó."
+
+msgid "Profile deletion FAILED."
+msgstr "A profil törlése SIKERTELEN."
+
+msgid "Back to profile"
+msgstr "Vissza a profilhoz"
+
+msgid "Deleted user"
+msgstr "Törölt felhasználó"
+
+
+#: --------------------------------------------------------------------------------------
+#: My\Purchased courses msgid "My" msgstr "Saját" "Purchased courses"
+#: "Vásárolt kurzusok"
+msgid "Active courses"
+msgstr "Aktív kurzusok"
+
+msgid "Orders"
+msgstr "Rendelések"
+
+msgid "You have no purchased courses or your order is not approved yet."
+msgstr "Még nem vásároltál kurzust, vagy a vásárlásodat még nem hagyták jóvá."
+
+#: msgid "Order ID" msgstr "Rendelésszám"
+msgid "Last modification"
+msgstr "Utolsó módosítás"
+
+msgid "Course"
+msgstr "Kurzus"
+
+msgid "Expires"
+msgstr "Lejár"
+
+msgid "Price"
+msgstr "Ár"
+
+msgid "Type"
+msgstr "Típus"
+
+#: msgid "State" msgstr "Státusz"
+msgid "Invoice"
+msgstr "Számla"
+
+msgid "EXPIRED"
+msgstr "LEJÁRT"
+
+msgid "credit card"
+msgstr "bankkártya"
+
+msgid "Barion"
+msgstr "Barion"
+
+msgid "transfer"
+msgstr "átutalás"
+
+msgid "Proforma"
+msgstr "Díjbekérő"
+
+msgid "You have no orders yet."
+msgstr "Még nem történt rendelés."
+
+#: --------------------------------------------------------------------------------------
+#: My\Become a teacher msgid "My" msgstr "Saját" "Become teacher" "Tanárnak
+#: jelentkezem"
+
+msgid "Organization"
+msgstr "Intézmény"
+
+msgid "Application status"
+msgstr "Korábbi jelentkezések állapota"
+
+msgid "Applications are disabled."
+msgstr "A tanárnak jelentkezés funkció jelenleg le van tiltva."
+
+msgid "Application date"
+msgstr "Jelentkezés ideje"
+
+msgid "Approval date"
+msgstr "Elbírálás ideje"
+
+msgid "Status"
+msgstr "Állapot"
+
+#: msgid "Pending" msgstr "Függő"
+msgid "Information"
+msgstr "Információ"
+
+msgid "Teacher application is not available."
+msgstr "Jelenleg nem lehet tanárnak jelentkezni."
+
+msgid "Create your teacher profile"
+msgstr "Tanári profil létrehozása"
+
+msgid "Review your teacher profile"
+msgstr "Tanári profil áttekintése"
+
+msgid "Application form"
+msgstr "Jelentkezés intézményhez"
+
+msgid "Unique text ID:"
+msgstr "Egyedi azonosító:"
+
+msgid "eg. johnsmith"
+msgstr "pl. kovacsjozsef"
+
+msgid "Job title:"
+msgstr "Ezzel foglalkozom:"
+
+msgid "eg. business trainer, coach"
+msgstr "pl. üzleti tréner"
+
+msgid "Speciality:"
+msgstr "Ehhez értek:"
+
+msgid "eg. sales, marketing, time management"
+msgstr "pl. értékesítés, marketing, üzleti modellépítés"
+
+msgid "Introduction:"
+msgstr "Bemutatkozás:"
+
+msgid "WARNING! You can not change this later!"
+msgstr "FIGYELEM! Később nem változtatható meg!"
+
+msgid "The given ID is already used."
+msgstr "A megadott azonosító már foglalt!"
+
+#: msgid "Introduction" msgstr "Bemutatkozás" "Save" "Mentés" "All changes
+#: are saved" "Változások elmentve"
+msgid "Organization:"
+msgstr "Intézmény:"
+
+msgid "Application details:"
+msgstr "Jelentkezés szövege:"
+
+msgid "Application details (max. 200 characters)"
+msgstr "Jelentkezés szövege (max. 200 karakter)"
+
+msgid "Send"
+msgstr "Küldés"
+
+msgid " is applied for being a teacher here: "
+msgstr " tanárnak jelentkezett ide: "
+
+msgid "Application has benn sent."
+msgstr "Jelentkezés elküldve."
+
+#: --------------------------------------------------------------------------------------
+#: My\Affiliate marketing
+msgid "My campaigns"
+msgstr "Kampányaim"
+
+msgid "All campaigns"
+msgstr "Minden kampány"
+
+#: msgid "Commission" msgstr "Jutalék"
+msgid "Conversion"
+msgstr "Konverzió"
+
+msgid "Interaction rate"
+msgstr "Interakció"
+
+#: msgid "Name" msgstr "Név"
+msgid "Shareable link"
+msgstr "Megosztható link"
+
+#: msgid "Valid from" msgstr "Érvényes (-tól)" to" (-ig)"
+msgid "Hits"
+msgstr "Kattintások"
+
+msgid "Income"
+msgstr "Bevétel"
+
+#: msgid "Commission" msgstr "Jutalék"
+msgid "Become our affiliate partner!"
+msgstr "Legyél a partnerünk!"
+
+msgid ""
+"Being an affiliate partner is free and easy to join. You can earn commission "
+"on each sale come from your recommendation."
+msgstr ""
+"Partnernek lenni egyszerű és ingyenes. Azonban te ezzel pénzt kereshetsz, "
+"hiszen minden olyan vásárlás után, ami tőled érkezik, jutalékot fizetünk "
+"Neked."
+
+msgid "Join"
+msgstr "Csatlakozás"
+
+msgid "Your affiliate partner status is"
+msgstr "A partner marketing státuszod jelenleg"
+
+msgid "Please be patient! Our administrator will review your application soon."
+msgstr ""
+"Kis türelmedet kérjük. Admnisztrátorunk rövidesen elbírálja jelentkezésed."
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard
+msgid "Widgets"
+msgstr "Kijelzők kezelése"
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard\Teacher Details Widget
+msgid "My teacher profile"
+msgstr "Adataim"
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard\Course Rating Widget
+msgid "Course ratings"
+msgstr "Kurzus értékelések"
+
+msgid "Course name"
+msgstr "Kurzus"
+
+msgid "average rating"
+msgstr "átlag értékelés"
+
+msgid "rating count"
+msgstr "értékelések száma"
+
+#: msgid "No ratings" msgstr "Nincs értékelés"
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard\Ratings Widget
+msgid "My ratings"
+msgstr "Értékelésem"
+
+msgid "Average rating:"
+msgstr "Átlag értékelés:"
+
+msgid "rater(s)"
+msgstr "értékelő"
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard\Org List Widget msgid "Organization" msgstr
+#: "Intézmény" room\Dashboard\Course Sales Graph
+msgid "Course sales graph (lifetime)"
+msgstr "Kurzus bevételek eloszlása (élettartam)"
+
+msgid "Total sales"
+msgstr "Összes értékesítés"
+
+msgid "amount"
+msgstr "összeg"
+
+msgid "You have no course sales yet."
+msgstr "Még nem értékesítettél egy kurzust sem."
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\Dashboard\Course Sales Widget
+msgid "Course sales (lifetime)"
+msgstr "Kurzus értékesítések (élettartam)"
+
+#: msgid "Total sales" msgstr "Összes értékesítés
+msgid "course sales"
+msgstr "kurzus eladás"
+
+
+#: --------------------------------------------------------------------------------------
+#: Dashboard\Monthly Sales Widget (last 12 months)
+msgid "Monthly sales (last 12 months)"
+msgstr "Havi értékesítések (legutóbbi 12 hónap)"
+
+msgid "monthly sales revenue"
+msgstr "havi értékesítési bevétel"
+
+#: --------------------------------------------------------------------------------------
+#: Dashboard\Monthly Sales Widget (actual year)
+msgid "Monthly sales (actual year)"
+msgstr "Havi értékesítések (aktuális év)"
+
+
+
+#: msgid "Course name" msgstr "Kurzus" "pcs" "db" "price" "ár" "You have no
+#: course sales yet." "Még nem értékesítettél egy kurzust sem."
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\My Courses
+msgid "New course"
+msgstr "Új kurzus"
+
+msgid "Action"
+msgstr "Művelet"
+
+# :msgstr "Intézmény"
+#: msgid "Course name" msgstr "Kurzus" "Organization" "Category" "Kategória"
+msgid "Content"
+msgstr "Tartalom"
+
+#: msgid "Level" msgstr "Szint" "Rating" "Értékelés" "Price" "Ár"
+msgid "Creation date"
+msgstr "Létrehozás"
+
+#: msgid "Status" msgstr "Állapot"
+msgid "Purchasable"
+msgstr "Megvásárolhatóság"
+
+msgid "Available"
+msgstr "Elérhető"
+
+msgid "Delete PERMANENTLY"
+msgstr "Kurzus VÉGLEGES törlés"
+
+msgid "Delete forever"
+msgstr "VÉGLEGES törlés"
+
+#: msgid "No ratings" msgstr "Nincs értékelés" "Active" "Aktív" "Disabled"
+#: "Letiltva"
+msgid "Incomplete (active)"
+msgstr "Hiányos (aktív)"
+
+msgid "Incomplete (disabled)"
+msgstr "Hiányos (tiltott)"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Deleting course"
+msgstr "Kurzus törlése"
+
+msgid "You are about to delete this course. Are you sure?"
+msgstr "Biztosan törlöd a kurzust?"
+
+#: msgid "Cancel" msgstr "Megszakítás"
+msgid "You are about to delete this course forever. Are you sure?"
+msgstr "A törlés nem visszavonható. Biztosan törlöd a kurzust?"
+
+#: msgid "Delete forever" msgstr "VÉGLEGES törlés"
+msgid "Course ID"
+msgstr "Kurzus azonosítója"
+
+msgid "No category defined"
+msgstr "Nincs kurzus kategória létrehozva"
+
+msgid "All courses must belong to a category. Without categories you can not create courses."
+msgstr "Minden kurzust be kell sorolni egy kategóriába. Kategóriák nélkül nem tudsz kurzust létrehozni."
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\My Courses\Edit msgid "New course" msgstr "Új kurzus" "Edit
+#: "Kurzus szerkesztése"
+msgid "Course page"
+msgstr "Kurzus oldal"
+
+msgid "Not active"
+msgstr "Nem aktív"
+
+msgid "Free"
+msgstr "Szabad"
+
+msgid "Course details"
+msgstr "Kurzus részletek"
+
+msgid "Sales page"
+msgstr "Értékesítési oldal"
+
+#: msgid "Course" msgstr "Kurzus" "Delete" "Törlés"
+msgid "Poster picture"
+msgstr "Borítókép"
+
+msgid "You'll able to upload a poster picture after you save the course."
+msgstr "Borítóképet mentés után lehet majd feltölteni."
+
+#: msgid "Description" msgstr "Leírás" "Tags" "Címkék"
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#: msgid "Delete" msgstr "Törlés" "Cancel" "Megszakítás" "You are about to
+#: delete this course. Are you sure?" "Biztosan törlöd a kurzust?" "Active"
+#: "Aktív" "Disabled"
+msgid "Incomplete"
+msgstr "Hiányos"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "The organization doesn't have enough free space"
+msgstr "A választott intézménynek nincs elegendő tárhelye!"
+
+msgid "Not enough space to save the course."
+msgstr "Nincs elegendő tárhely a kurzus mentéséhez!"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Title:"
+msgstr "Cím:"
+
+#: msgid "Description:" msgstr "Leírás:"
+
+msgid "Short description"
+msgstr "Rövid leírás"
+
+msgid "Short description:"
+msgstr "Rövid leírás:"
+
+msgid "characters remaining"
+msgstr "karakter maradt"
+
+msgid "Level:"
+msgstr "Szint:"
+
+msgid "Language:"
+msgstr "Nyelv:"
+
+msgid "Category:"
+msgstr "Kategória:"
+
+#: msgid "Organization:" msgstr "Intézmény:"
+msgid "Price:"
+msgstr "Ár:"
+
+msgid "Free courses are not supported in you current plan."
+msgstr "A jelenlegi csomagodban az ingyenes kurzusok nem támogatottak."
+
+msgid "Purchasable from:"
+msgstr "Megvásárolható (-tól):"
+
+msgid "Purchasable until:"
+msgstr "Megvásárolható (-ig):"
+
+msgid "Access limitation (days):"
+msgstr "Hozzáférés limit (nap):"
+
+msgid "State:"
+msgstr "Állapot:"
+
+msgid "Deleted:"
+msgstr "Törölt:"
+
+msgid "Tags:"
+msgstr "Címkék:"
+
+msgid "Videos:"
+msgstr "Videók:"
+
+msgid "Files:"
+msgstr "Fájlok:"
+
+msgid "day(s) after the the previous"
+msgstr "nappal az előző után"
+
+msgid "day(s) after purchase"
+msgstr "nappal vásárlás után"
+
+msgid "Day %s"
+msgstr "%s. nap"
+
+msgid "Free and always visible."
+msgstr "Ingyenes és mindig látható."
+
+msgid "Play"
+msgstr "Lejátszás"
+
+#: msgid "Save" msgstr "Mentés"
+msgid "Course title is required and can not be empty."
+msgstr "A kurzusnak címet kell adni!"
+
+msgid "Course description is required and can not be empty."
+msgstr "A kurzus leírás nem lehet üres!"
+
+msgid "Drop videos here"
+msgstr "Húzd ide a videókat"
+
+msgid "Choose videos"
+msgstr "Válassz videókat"
+
+msgid "Supported formats:"
+msgstr "Támogatott:"
+
+msgid "Max. upload size:"
+msgstr "Max. fájlméret:"
+
+msgid "You'll able to upload videos after you save the course."
+msgstr "Videókat mentés után lehet majd feltölteni."
+
+msgid "Delete video"
+msgstr "Videó törlése"
+
+msgid "Video has been uploaded and saved"
+msgstr "Videó feltöltve és elmentve"
+
+msgid "File has been uploaded and saved"
+msgstr "Fájl feltöltve és elmentve"
+
+msgid "You are about to delete this video forever. Are you sure?"
+msgstr "A törlés nem visszavonható. Biztosan törlöd a videót?"
+
+msgid "ID"
+msgstr "Azon."
+
+#: msgid "Title" msgstr "Cím" "Description" "Leírás"
+msgid "Not supported file type"
+msgstr "Nem támogatott fájltípus"
+
+msgid "too large"
+msgstr "túl nagy"
+
+msgid "Max file size:"
+msgstr "Max fájlméret:"
+
+msgid "Course files"
+msgstr "Kurzus fájlok"
+
+msgid "Drop file here"
+msgstr "Húzd ide a fájlokat"
+
+msgid "Choose files"
+msgstr "Válassz fájlokat"
+
+msgid "Delete file"
+msgstr "Fájl törlése"
+
+msgid "You'll able to upload files after you save the course."
+msgstr "Fájlokat mentés után lehet majd feltölteni."
+
+msgid "You are about to delete this file forever. Are you sure?"
+msgstr "A törlés nem visszavonható. Biztosan törlöd a fájlt?"
+
+msgid "Promo:"
+msgstr "Promo:"
+
+
+msgid "Offer background color:"
+msgstr "Ajánlat doboz háttérszíne:"
+
+msgid "Offer background color"
+msgstr "Ajánlat doboz háttérszíne"
+
+msgid "CTA button text:"
+msgstr "CTA gomb szövege:"
+
+msgid "CTA button text"
+msgstr "CTA gomb szövege:"
+
+msgid "CTA button color:"
+msgstr "CTA gomb színe:"
+
+msgid "CTA button color"
+msgstr "CTA gomb színe"
+
+msgid "CTA button text color:"
+msgstr "CTA szöveg színe:"
+
+msgid "CTA button text color"
+msgstr "CTA szöveg színe"
+
+msgid "Primary color:"
+msgstr "Kiemelt szöveg színe:"
+
+msgid "Primary color"
+msgstr "Kiemelt szöveg színe:"
+
+msgid "Secondary color:"
+msgstr "Normál szöveg színe:"
+
+msgid "Secondary color"
+msgstr "Normál szöveg színe"
+
+msgid "Tertiary color:"
+msgstr "Kevésbé fontos szöveg színe:"
+
+msgid "Tertiary color"
+msgstr "Kevésbé fontos szöveg színe"
+
+msgid "Primary background color:"
+msgstr "Dobozok színe:"
+
+msgid "Primary background color"
+msgstr "Dobozok színe"
+
+msgid "Secondary background color:"
+msgstr "Háttér színe:"
+
+msgid "Secondary background color"
+msgstr "Háttér színe"
+
+msgid "Box border color:"
+msgstr "Doboz keret színe:"
+
+msgid "Box border color"
+msgstr "Doboz keret színe"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\My Tests
+msgid "New test"
+msgstr "Új tudáspróba"
+
+msgid "Name"
+msgstr "Név"
+
+#: --------------------------------------------------------------------------------------
+#: Teacher's room\My Tests\Edit test
+msgid "Edit test"
+msgstr "Tudáspróba szerkesztése"
+
+msgid "You are about to delete this test forever. Are you sure?"
+msgstr "A törlés nem visszavonható. Biztosan törlöd a tudáspróbát?"
+
+#: msgid "Settings" msgstr "Beállítások"
+msgid "Course:"
+msgstr "Kurzus:"
+
+#: msgid "Description:" msgstr "Leírás:"
+msgid "Valid from:"
+msgstr "Érvényes (-tól):"
+
+msgid "Valid to:"
+msgstr "Érvényes (-ig):"
+
+msgid "Time available (seconds):"
+msgstr "Rendelkezésre álló idő (másodperc):"
+
+msgid "Success criteria:"
+msgstr "Sikerkritérium:"
+
+msgid "Repeatability:"
+msgstr "Ismételhetőség (alkalom):"
+
+msgid "Not limited"
+msgstr "Korlátlan"
+
+msgid "The test is not active now."
+msgstr "A tudáspróba jelenleg nem aktív."
+
+msgid "Questions:"
+msgstr "Kérdések:"
+
+msgid "The end date should be greater than start date"
+msgstr "A kezdő dátumnak kisebbnek kell lennie a befejező dátumnál!"
+
+msgid "Question:"
+msgstr "Kérdés:"
+
+msgid "Points:"
+msgstr "Pont:"
+
+#: msgid "Explanation:" msgstr "Magyarázat:"
+msgid "Answer options:"
+msgstr "Válasz lehetőségek:"
+
+msgid "Answer:"
+msgstr "Válasz:"
+
+msgid "Right answer"
+msgstr "Helyes válasz"
+
+msgid "question"
+msgstr "kérdés"
+
+msgid "answer"
+msgstr "válasz"
+
+msgid "Rigth answer"
+msgstr "Helyes válasz"
+
+msgid "Add new answer"
+msgstr "Új válasz hozzáadása"
+
+msgid "Add new question"
+msgstr "Kérdés hozzáadás"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Dashboard msgid "Director's room" msgstr "Igazgatói szoba"
+#: "Dashboard" "Irányítópult" room\Dashboard\Sales Sum This Month & Sales
+#: Last 30 Days
+msgid "Daily sales (actual month)"
+msgstr "Napi értékesítések (aktuális hónap)"
+
+msgid "Daily sales (last 30 days)"
+msgstr "Napi értékesítések (legutóbbi 30 nap)"
+
+msgid "daily sales revenue"
+msgstr "napi össz. értékesítés"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Dashboard\Top 10 courses
+msgid "Top 10 courses"
+msgstr "Top 10 kurzus"
+
+msgid "all time sales revenue"
+msgstr "teljes időszak alatt"
+
+msgid "No data to show."
+msgstr "Nincs megjeleníthető adat."
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Dashboard\Income Summary Widget
+msgid "Sales revenue"
+msgstr "Értékesítés"
+
+msgid "All time"
+msgstr "Összes"
+
+msgid "This year"
+msgstr "Aktuális év"
+
+msgid "This quarter"
+msgstr "Aktuális negyedév"
+
+msgid "This month"
+msgstr "Aktuális hónap"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Dashboard\Disk Usage Widget
+msgid "Disk usage"
+msgstr "Tárhely használat"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Dashboard\Disk Usage Graph Widget
+msgid "Disk usage graph"
+msgstr "Tárhely használat grafikon"
+
+msgid "Storage"
+msgstr "Tárhely"
+
+#: msgid "Course videos" msgstr "Kurzus videók" files" fájlok"
+msgid "Pictures"
+msgstr "Képek"
+
+msgid "Invoice PDFs"
+msgstr "Számla PDF-ek"
+
+#: msgid "Free" msgstr "Szabad"
+#: --------------------------------------------------------------------------------------
+#: Director's room\Timeline
+msgid "Signed up."
+msgstr "Regisztrált"
+
+msgid "Logged in."
+msgstr "Bejelentkezett"
+
+msgid "Logged out."
+msgstr "Kijelentkezett"
+
+msgid "Deleted the user profile."
+msgstr "Törölte a felhasználó profilját"
+
+msgid "Opened a not purchased course."
+msgstr "Még nem megvásárolt kurzusban nézelődött"
+
+msgid "Opened a purchased course."
+msgstr "Vásárolt kurzust nyitott meg"
+
+msgid "Opened an owned course."
+msgstr "Saját kurzusát nézte meg (tanárként)"
+
+msgid "The system has sent an email."
+msgstr "A rendszer emailt küldött a felhasználónak"
+
+msgid "Placed an order"
+msgstr "Megrendelést adott le"
+
+msgid "Order cancelled."
+msgstr "Törölte a megrendelést"
+
+msgid "Payment received."
+msgstr "A vásárlás ellenértéke beérkezett"
+
+msgid "Rated a course"
+msgstr "Értékelt egy kurzust"
+
+msgid "Played a video file."
+msgstr "Lejátszott egy videót"
+
+msgid "Downloaded a file."
+msgstr "Letöltött egy fájlt"
+
+msgid "Opened an email."
+msgstr "Megnyitott egy emailt"
+
+msgid "Wants to become a teacher."
+msgstr "Tanárnak jelentkezett"
+
+msgid "Application status update."
+msgstr "Jelentkezés státusza frissült"
+
+msgid "Tested."
+msgstr "Kitöltött egy tesztet"
+
+# --
+msgid "Sign Up"
+msgstr "Regisztráció"
+
+#: msgid "Log in" msgstr "Belépés"
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+msgid "Order placed"
+msgstr "Rendelés leadás"
+
+msgid "Teacher application"
+msgstr "Tanári jelentkezés"
+
+msgid "Teacher application status update"
+msgstr "Tanári jelentkezés státusz frissítés"
+
+msgid "Course opened"
+msgstr "Kurzus megnyitás"
+
+msgid "Video Played"
+msgstr "Videó lejátszás"
+
+msgid "File downloaded"
+msgstr "Fájl letöltés"
+
+msgid "Email sent"
+msgstr "Kimenő email"
+
+msgid "Email opened"
+msgstr "Email megnyitás"
+
+#: msgid "Payment received"
+#: msgstr "Fizetés"
+
+msgid "Filled test"
+msgstr "Teszt kitöltés"
+
+msgid "Rating added"
+msgstr "Értékelés"
+
+msgid "Unauthorized access attempt"
+msgstr "Illetéktelen hozzáférés"
+
+msgid "Suspected account sharing"
+msgstr "Felhasználói fiók megosztás gyanú"
+
+msgid "Unauthorized file download attempt"
+msgstr "Fájl letöltés próbálkozás"
+
+msgid "Unauthorized video download attempt"
+msgstr "Videó letöltés próbálkozás"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Subscription details
+msgid "Subscription details"
+msgstr "Előfizetés részletei"
+
+msgid "Package name"
+msgstr "Előfizetés neve"
+
+msgid "No packages found"
+msgstr "Nincs előfizetés"
+
+msgid "Storage space"
+msgstr "Tárhely"
+
+msgid "Used"
+msgstr "Használt"
+
+msgid "Outbound traffic included"
+msgstr "Kimenő adatforgalom a csomagban"
+
+msgid "Actual outbound traffic"
+msgstr "Aktuális kimenő adatforgalom"
+
+msgid "Extra outbound traffic"
+msgstr "Extra kimenő adatforgalom"
+
+msgid "Transaction fee"
+msgstr "Tranzakciós díj"
+
+msgid "User licenses"
+msgstr "Felhasználói licencek"
+
+msgid "Teacher licenses"
+msgstr "Tanári licencek"
+
+msgid "Advanced reporting"
+msgstr "Bővített riport"
+
+msgid "Schedule courses"
+msgstr "Kurzus időzítés"
+
+msgid "White label"
+msgstr "Kikapcsolt TudásPiac logó"
+
+msgid "Free courses"
+msgstr "Ingyenes kurzusok"
+
+#: msgstr "Szabad"
+#: --------------------------------------------------------------------------------------
+#: Director's room\Courses msgid "No courses found." "Még nincsnek kurzusok."
+#: room\Sales "Order ID" "Rendelésszám"
+msgid "Date of purchase"
+msgstr "Vásárlás ideje"
+
+msgid "No data"
+msgstr "Nincs adat"
+
+msgid "Date of expiry"
+msgstr "Lejárat ideje"
+
+#: msgid "Status" msgstr "Állapot" "Active" "Aktív"
+msgid "Expired"
+msgstr "Lejárt"
+
+msgid "No subscription"
+msgstr "Nincs előfizetés"
+
+msgid "Actual month"
+msgstr "Aktuális hónap"
+
+msgid "Plan base price"
+msgstr "Csomag alap díj"
+
+msgid "Net price"
+msgstr "Nettó összeg"
+
+msgid "Summary"
+msgstr "Összeg"
+
+msgid ""
+"Values are for information purposes only and based on actual MNB exchange "
+"rates."
+msgstr ""
+"A fenti értékek csak tájékoztató jellegűek és az akutális napig történt "
+"költségeket tartalmazzák. A valutaváltáshoz az MNB aktuális árfolyamait "
+"használjuk."
+
+msgid "VAT is not included in the numbers above."
+msgstr "A fenti árak az ÁFÁ-t nem tartalmazzák"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Organizations msgid "Organizations" msgstr "Intézményeim"
+msgid "No organizations found"
+msgstr "Még nincsnek intézményeid."
+
+#: msgid "Disabled" msgstr "Letiltva" "Not visible" "Nem látható" "rater(s)"
+#: "értékelő"
+msgid "No teachers found."
+msgstr "Még nincsnek tanárok."
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Students
+msgid "No students found."
+msgstr "Még nincsenek diákok."
+
+msgid "Value"
+msgstr "Érték"
+
+#: msgid "Organization" msgstr "Intézmény" "Item" "Tétel" "Price" "Ár"
+#: "Type" "Típus"
+msgid "Customer"
+msgstr "Vásárló"
+
+msgid "Teacher"
+msgstr "Tanár"
+
+msgid "User email"
+msgstr "Vásárló email"
+
+#: msgid "Order ID" msgstr "Rendelésszám" "Category" "Kategória" "Price"
+#: "Ár"
+msgid "Order date"
+msgstr "Rendelés dátuma"
+
+msgid "Teacher email"
+msgstr "Tanár email"
+
+msgid "Filters"
+msgstr "Szűrők"
+
+msgid "equal"
+msgstr "egyenlő"
+
+msgid "not equal"
+msgstr "nem egyenlő"
+
+msgid "contains"
+msgstr "tartalmazza"
+
+msgid "does not contain"
+msgstr "nem tartalmazza"
+
+msgid "between"
+msgstr "között"
+
+msgid "today"
+msgstr "ma"
+
+msgid "yesterday"
+msgstr "tegnap"
+
+msgid "this week"
+msgstr "aktuális hét"
+
+msgid "last week"
+msgstr "előző hét"
+
+msgid "past two weeks"
+msgstr "elmúlt két hét"
+
+msgid "this month"
+msgstr "aktuális hónap"
+
+msgid "last month"
+msgstr "előző hónap"
+
+msgid "this year"
+msgstr "aktuális év"
+
+msgid "last year"
+msgstr "előző év"
+
+msgid "multiple"
+msgstr "több érték"
+
+msgid "Columns"
+msgstr "Oszlopok"
+
+msgid "Available Columns"
+msgstr "Elérhető oszlopok"
+
+msgid "Selected Columns"
+msgstr "Kiválasztott oszlopok"
+
+#: msgid "Director's room" msgstr "Igazgatói szoba"
+msgid "Fields"
+msgstr "Mezők"
+
+msgid "Excel export"
+msgstr "Excel export"
+
+msgid "Ok"
+msgstr "Ok"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Teacher applications
+msgid "Applicant"
+msgstr "Jelentkező"
+
+#: msgid "Organization" msgstr "Intézmény"
+msgid "Application text"
+msgstr "Jelentkés szövege"
+
+msgid "Application time"
+msgstr "Jelentkezés ideje"
+
+msgid "Review time"
+msgstr "Elbírálás ideje"
+
+#: msgid "Status" msgstr "Állapot" "Action" "Művelet"
+msgid "Pending for review"
+msgstr "Nincs elbírálva"
+
+msgid "Review"
+msgstr "Elbírálás"
+
+msgid "Review application"
+msgstr "Jelentkezés elbírálása"
+
+msgid "Approve"
+msgstr "Elfogadom"
+
+msgid "Reject"
+msgstr "Elutasítom"
+
+msgid "Suspend"
+msgstr "Felfüggesztem"
+
+#: msgid "Delete" msgstr "Törlés" "Cancel" "Megszakítás"
+msgid "OK"
+msgstr "OK"
+
+msgid "Review the following application"
+msgstr "A következő jelentkezés elbírálása"
+
+# msgid "Pending"
+# msgstr "Függőben"
+msgid "Approved"
+msgstr "Elfogadva"
+
+msgid "Rejected"
+msgstr "Elutasítva"
+
+msgid "Suspended"
+msgstr "Felfüggesztve"
+
+msgid "Deleted"
+msgstr "Törölve"
+
+#: --------------------------------------------------------------------------------------
+#: Director's room\Report
+
+msgid "Unpurchased courses"
+msgstr "Nem megvásárolt kurzusok"
+
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Logins actual month & last 30 days
+msgid "Login count (actual month)"
+msgstr "Bejelentkezések a hónapban"
+
+msgid "Login count (last 30 days)"
+msgstr "Bejelentkezések az elmúlt 30 napban"
+
+msgid "login count"
+msgstr "bejelentkezések száma"
+
+msgid "count"
+msgstr "szám"
+
+msgid "login(s)"
+msgstr "bejelentkezés"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Top 10 video
+msgid "Top 10 videos by access count"
+msgstr "A 10 legtöbbet lejátszott videó"
+
+msgid "video access count"
+msgstr "videó elérés"
+
+#: msgid "No data to show." msgstr "Nincs megjeleníthető adat."
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Registered users by roles
+msgid "Registered users by roles"
+msgstr "Szerepkörök a rendszerben"
+
+msgid "Total number of users"
+msgstr "Összes felhasználó"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Subscriptions
+msgid "Subscriptions"
+msgstr "Előfizetések"
+
+#: msgid "Subscription" msgstr "Előfizetés"
+msgid "Expiration"
+msgstr "Lejárat"
+
+msgid "Owner"
+msgstr "Tuldajdonos"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Summary outbound traffic
+
+msgid "Summary outbound traffic (actual month)"
+msgstr "Összes kimenő forgalom (aktuális hónap)"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Outbound traffic (actual month)
+
+msgid "Outbound traffic (actual month)"
+msgstr "Kimenő adatforgalom (aktuális hónap)"
+
+msgid "traffic"
+msgstr "adatforgalom"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Dashboard\Outbound traffic (actual month)
+
+msgid "Outbound traffic (last 30 days)"
+msgstr "Kimenő adatforgalom (legutóbbi 30 nap)"
+
+
+#: msgid "No data to show." msgstr "Nincs megjeleníthető adat."
+#: --------------------------------------------------------------------------------------
+msgid "New user"
+msgstr "Új felhasználó"
+
+#: Admin\Users "ID" "Azon." "Name" "Név" "Email"
+msgid "Role"
+msgstr "Szerepkör"
+
+msgid "Sign up date"
+msgstr "Regisztráció"
+
+msgid "Last login date"
+msgstr "Utolsó belépés"
+
+msgid "Login count"
+msgstr "Belépések"
+
+#: msgid "Status" msgstr "Állapot" "Active" "Aktív" "Disabled" "Letiltva"
+msgid "It's me :)"
+msgstr "Ez vagyok én. :)"
+
+msgid "Mail send error"
+msgstr "Hiba az email küldés során"
+#: --------------------------------------------------------------------------------------
+#: Admin\User details msgid "It's me :)" msgstr "Ez vagyok én.
+
+msgid "Make teacher"
+msgstr "Tanárnak kinevezés"
+
+msgid "Undo teacher"
+msgstr "Tanár megszüntetés"
+
+msgid "You are about to give teacher rights to this user. Are you sure?"
+msgstr "Tanári jogosultságot készülsz adni ennek a felhasználónak. Biztos vagy benne?"
+
+msgid "You are about to revoke teacher rights from this user. Are you sure?"
+msgstr "Arra készülsz, hogy visszavonod a tanári jogosultságot ettől a felhasználótól. Biztos vagy benne?"
+
+msgid "Profile details"
+msgstr "Profil adatok"
+
+msgid "This email address has been already registered."
+msgstr "Ez az email cím már foglalt."
+
+msgid "Password"
+msgstr "Jelszó"
+
+#: msgid "Subscription" msgstr "Előfizetés "Purchases" "Vásárlások"
+#: "Personal details" "Személyes adatok"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Profile picture"
+msgstr "Profilkép"
+
+msgid "Not allowed character found. Use only alphabets, space and \"-\"."
+msgstr ""
+"Ez a mező csak betűket, kötőjelet és szóközt tartalmazhat! Az első betű "
+"kötelezően nagybetű."
+
+msgid ""
+"Not allowed character found. Use only alphabets, space, \"-\" and \".\"."
+msgstr ""
+"Ez a mező csak betűket, kötőjelet pontot és szóközt tartalmazhat! Az első "
+"betű kötelezően nagybetű."
+
+msgid "Not allowed character found. Use only alphabets, space."
+msgstr ""
+"Ez a mező csak betűket és szóközt tartalmazhat! Az első betű kötelezően "
+"nagybetű."
+
+msgid "Not allowed character found. Use only numbers, \"+\", \"/\" and \"-\"."
+msgstr ""
+"Nem megengedett karakter a telefonszámban! Ezeket használhatod: számok, \"+"
+"\", \"/\", \"-\"."
+
+#: msgid "Changing the password" msgstr "Jelszó megváltoztatása"
+msgid "Token for password change"
+msgstr "Jelszóváltoztató token"
+
+msgid "Send token"
+msgstr "Token küldése"
+
+msgid "Token has been sent"
+msgstr "Token elküldve"
+
+msgid ""
+"Send a password changer token to the user. It is highly recommended to send "
+"a token instead of change the password yourself."
+msgstr ""
+"Jelszóváltoztató token küldése a felhasználónak. Erősen ajánlott ezt "
+"használni a jelszóváltoztatás helyett (mert arról a felhasználó nem értesül)."
+
+msgid "Tokens"
+msgstr "Tokenek"
+
+msgid "Token"
+msgstr "Token"
+
+msgid "Request IP"
+msgstr "Kérés IP"
+
+msgid "Request Time"
+msgstr "Kérés ideje"
+
+msgid "Expiration Time"
+msgstr "Lejárat ideje"
+
+msgid "User IP"
+msgstr "Felh. IP"
+
+msgid "Password change time"
+msgstr "Felhasználás ideje"
+
+msgid "purchases"
+msgstr "vásárlás"
+
+#: msgid "Course name" msgstr "Kurzus" "Price" "Ár" "Type" "Típus"
+msgid "Paid"
+msgstr "Fizetve"
+
+msgid "Billed"
+msgstr "Számlázva"
+
+#: msgid "Yes" msgstr "Igen" "No" "Nem" "credit card" "bankkártya" "transfer"
+#: "átutalás"
+#: --------------------------------------------------------------------------------------
+#: Admin\Offers
+
+msgid "Offer"
+msgstr "Ajánlat"
+
+msgid "Offers"
+msgstr "Ajánlatok"
+
+msgid "New offer"
+msgstr "Új ajánlat"
+
+msgid "Edit offer"
+msgstr "Ajánlat szerkesztése"
+
+msgid "Available days"
+msgstr "Elérhetőség (nap)"
+
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgid "Default offer"
+msgstr "Alap ajánlat"
+
+msgid "Custom offer"
+msgstr "Egyedi"
+
+msgid "Public"
+msgstr "Publikus"
+
+msgid "Public:"
+msgstr "Publikus:"
+
+msgid "Original quantity"
+msgstr "Eladható (db)"
+
+msgid "Original quantity:"
+msgstr "Eladható (db):"
+
+msgid "Available courses"
+msgstr "Elérhető kurzusok"
+
+msgid "Added courses"
+msgstr "Hozzáadott kurzusok"
+
+msgid "Validity"
+msgstr "Érvényesség"
+
+msgid "unlimited"
+msgstr "korlátlan"
+
+msgid "Delete offer"
+msgstr "Ajánlat törlése"
+
+msgid "You are about to delete this offer. Are you sure?"
+msgstr "Biztosan törlöd ezt az ajánlatot?"
+
+msgid "Deleted offer"
+msgstr "Törölt ajánlat"
+
+msgid "Available coupons"
+msgstr "Elérhető kuponok"
+
+msgid "Added coupons"
+msgstr "Hozzáadott kuponok"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Coupons
+
+msgid "Coupons"
+msgstr "Kuponok"
+
+msgid "New coupon"
+msgstr "Új kupon"
+
+msgid "Code"
+msgstr "Kód"
+
+msgid "Discount"
+msgstr "Kedvezmény"
+
+msgid "Edit coupon"
+msgstr "Kupon szerkesztése"
+
+msgid "Coupon code:"
+msgstr "Kupon kód:"
+
+msgid "Type:"
+msgstr "Típus:"
+
+msgid "Fix amount"
+msgstr "Fix összeg"
+
+msgid "Percentage"
+msgstr "Százalék"
+
+msgid "Value:"
+msgstr "Érték:"
+
+msgid "Delete coupon"
+msgstr "Kupon törlése"
+
+msgid "You are about to delete this coupon. Are you sure?"
+msgstr "Biztosan törlöd ezt a kupont?"
+
+msgid "This coupon code has been already registered."
+msgstr "Ez a kupon kód már foglalt."
+
+msgid "Available offers"
+msgstr "Elérhető ajánlatok"
+
+msgid "Added offers"
+msgstr "Hozzáadott ajánlatok"
+
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations
+msgid "New organization"
+msgstr "Új intézmény"
+
+#: msgid "Action" msgstr "Művelet" "Organization" "Intézmény"
+msgid "Visibility"
+msgstr "Láthatóság"
+
+msgid "Course count"
+msgstr "Kurzusok sz."
+
+msgid "Teacher count"
+msgstr "Tanárok sz."
+
+#: msgid "Owner" msgstr "Tuldajdonos" "Subscription" "Előfizetés" "Creation
+#: date" "Létrehozás" "Status" "Állapot" "Expired" "Lejárt"
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Edit "New organization" "Új intézmény létrehozása"
+msgid "Edit organization"
+msgstr "Intézmény szerkesztése"
+
+msgid "Delete organization"
+msgstr "Intézmény törlése"
+
+#: msgid "Delete" msgstr "Törlés" "Not visible" "Nem látható" "Visible"
+#: "Látható"
+msgid "No owner assigned"
+msgstr "Nincs tulajdonos"
+
+#: msgid "Active" msgstr "Aktív" "Disabled" "Letiltva"
+msgid "Valid until"
+msgstr "Érvényes"
+
+msgid "Cover photo"
+msgstr "Háttérkép"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Basic data"
+msgstr "Alap adatok"
+
+msgid "Can not be changed later."
+msgstr "Később nem változtatható meg!"
+
+#: msgid "Unique text ID:" msgstr "Egyedi azonosító:"
+msgid "Unique text ID"
+msgstr "Egyedi azonosító"
+
+msgid "Organization name:"
+msgstr "Intézmény neve:"
+
+msgid "Organization name"
+msgstr "Intézmény neve"
+
+msgid "Strengths:"
+msgstr "Erősségeink:"
+
+msgid "Strengths"
+msgstr "Erősségeink:"
+
+#: msgid "Introduction" msgstr "Bemutatkozás" "Introduction:" "Bemutatkozás:"
+msgid "Web address:"
+msgstr "Web cím (URL):"
+
+msgid "Web address"
+msgstr "Web cím (URL)"
+
+#: msgid "Email:" msgstr "Email" "Phone:" "Telefonszám:" "Phone"
+#: "Telefonszám"
+msgid "Owner:"
+msgstr "Tulajdonos:"
+
+msgid "Status:"
+msgstr "Státusz:"
+
+#: msgid "Save" msgstr "Mentés"
+msgid "The ID is already used."
+msgstr "A megadott azonosító már foglalt!"
+
+msgid "The ID is required and can not be empty."
+msgstr "Szöges azonosítót kötelező megadni!"
+
+msgid "Not allowed character found. Use only numbers and \"+\", \"/\", \"-\"."
+msgstr ""
+"Nem megengedett karakter a telefonszámban! Ezeket használhatod: számok, \"+"
+"\", \"/\", \"-\"."
+
+#: msgid "Settings" msgstr "Beállítások"
+msgid "Subscribers only"
+msgstr "Előfizető választható"
+
+msgid "Contact data"
+msgstr "Kontakt adatok"
+
+msgid "Post address"
+msgstr "Postai cím"
+
+#: msgid "Zip code:" msgstr "Irányítószám:" "Zip" "Irsz." "City:"
+#: "Település:" "City" "Település" "Address:" "Cím:" "Address" "Utca,
+#: házszám" "Billing data" "Számlázási adatok" address:" cím:"
+#: --------------------------------------------------------------------------------------
+#: Admin\Purchases
+msgid "Period"
+msgstr "Időszak"
+
+msgid "Today"
+msgstr "Ma"
+
+msgid "Yesterday"
+msgstr "Tegnap"
+
+msgid "This week"
+msgstr "Aktuális hét"
+
+msgid "Last week"
+msgstr "Múlt hét"
+
+#: msgid "This month" msgstr "Aktulás hónap"
+msgid "Last month"
+msgstr "Múlt hónap"
+
+msgid "All"
+msgstr "Összes"
+
+#: msgid "Course name" msgstr "Kurzus" "Customer" "Vásárló"
+msgid "Payment date"
+msgstr "Fizetés dátuma"
+
+#: msgid "Order date" msgstr "Rendelés dátuma" "Type" "Típus" "Paid"
+#: "Fizetve" "Status" "Állapot" "Yes" "Igen" "No" "Nem" "credit card"
+#: "bankkártya" "transfer" "átutalás"
+msgid "Delete purchase"
+msgstr "Vásárlás törlése"
+
+msgid "You are about to delete this purchase. Are you sure?"
+msgstr "Biztosan törlöd ezt a vásárlást?"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Categories msgid "Save" msgstr "Mentés"
+msgid "Create new"
+msgstr "Létrehozás"
+
+msgid "Parent:"
+msgstr "Szülő:"
+
+msgid "None"
+msgstr "Nincs"
+
+msgid "Name:"
+msgstr "Név:"
+
+msgid "Category name"
+msgstr "Kategória neve"
+
+msgid "Categories can have a hierarchy. You might have a Photography category, and under that have children categories for Portrait and Landscape. Using hierarchy is optional."
+msgstr "A kategóriák hierarchiába rendezhetőek. Ha van egy Fényképezés kategóriád, akkor készíthetsz alá Portré és Tájkép alkategóriákat. A hierarchia használata opcionális."
+
+#: msgid "Description:" msgstr "Leírás:" "Description" "Leírás" "Category"
+#: "Kategória" "Action" "Művelet" "Course count" "Kurzusok sz."
+msgid "Edit"
+msgstr "Szerkeszt"
+
+msgid "New category"
+msgstr "Új kategória"
+
+msgid "New subcategory"
+msgstr "Új alkategória"
+
+#: msgid "Delete" msgstr "Törlés" "Delete forever" "VÉGLEGES törlés"
+msgid "Delete category"
+msgstr "Kategória törlése"
+
+msgid "No description given."
+msgstr "Nincs kitöltve"
+
+msgid "You are about to delete this category. Are you sure?"
+msgstr "Biztosan törlöd a kategóriát?"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Tags msgid "Tag" msgstr "Címke" "Creation date"
+#: "Létrehozás" "Edit" "Szerkeszt"
+msgid "Edit tag"
+msgstr "Címke szerkesztés"
+
+#: msgid "Delete" msgstr "Törlés"
+msgid "Delete tag"
+msgstr "Címke törlés"
+
+msgid "You are about to delete this tag. Are you sure?"
+msgstr "Biztosan törlöd a címkét?"
+
+#: msgid "Cancel" msgstr "Megszakítás" "Save" "Mentés"
+msgid "Tag name"
+msgstr "Címke neve"
+
+msgid "Create tag:"
+msgstr "Címke hozzáadása:"
+
+msgid "Tags provide a useful way to group related courses together and to quickly tell students what a course is about. Tags also make it easier for people to find your courses. Using tags is optional."
+msgstr "A címkék hasznosak lehetnek a kapcsolódó kurzusok csoportosítására és segtíenek gyorsan megtalálni a kurzusokat. A címkék használata opcionális."
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Rating
+
+msgid "Select all"
+msgstr "Összes kijelölése"
+
+msgid "Deselect all"
+msgstr "Kijelölés törlése"
+
+msgid "Approve selected"
+msgstr "Jóváhagyás"
+
+msgid "Delete selected"
+msgstr "Törlés"
+
+msgid "Rating text"
+msgstr "Értékelés szövege"
+
+msgid "Course rating"
+msgstr "Összesített"
+
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Affiliate marketing
+msgid "Campaigns"
+msgstr "Kampányok"
+
+msgid "Partners"
+msgstr "Partnerek"
+
+msgid "Commission"
+msgstr "Jutalék"
+
+msgid "New campaign"
+msgstr "Új kampány"
+
+msgid "Campaign"
+msgstr "Kampány"
+
+msgid "Unique visitor"
+msgstr "Egyedi látogató"
+
+msgid "Target"
+msgstr "Cél"
+
+msgid "Whole website"
+msgstr "Egész weboldal"
+
+msgid "Custom URL"
+msgstr "Egyedi URL"
+
+msgid "Target URL"
+msgstr "Cél URL"
+
+msgid "Valid from"
+msgstr "Érvényes (-tól)"
+
+msgid "Valid to"
+msgstr "Érvényes (-ig)"
+
+msgid "New partner"
+msgstr "Új partner"
+
+msgid "Unique ID"
+msgstr "Egyedi azonosító"
+
+msgid "Amount"
+msgstr "Összeg"
+
+msgid "Purchase price"
+msgstr "Vásárlás összege"
+
+msgid "Purchase price (incl. VAT)"
+msgstr "Vásárlás összege (bruttó)"
+
+msgid "Avg commission"
+msgstr "Átlagos jutalék"
+
+msgid "Campaign details"
+msgstr "Kampány részletek"
+
+msgid "Url"
+msgstr "URL"
+
+msgid "Date/Time"
+msgstr "Időpont"
+
+msgid "Edit campaign"
+msgstr "Kampány szerkesztése"
+
+msgid "Delete campaign"
+msgstr "Kampány törlése"
+
+msgid "Commission type:"
+msgstr "Jutalék típusa:"
+
+msgid "Commission:"
+msgstr "Jutalék:"
+
+msgid "Commission amount:"
+msgstr "Jutalék összege:"
+
+msgid "Commission (%):"
+msgstr "Jutalék (%):"
+
+msgid "Amount:"
+msgstr "Összeg:"
+
+msgid "Target URL:"
+msgstr "Cél URL:"
+
+msgid "Cost Per Visitor (CPV)"
+msgstr "Költség látogatónként (CPV)"
+
+msgid "Cost Per Purchase (CPP)"
+msgstr "Költség vásárlásonként (CPP)"
+
+msgid "percentage"
+msgstr "százalékos részesedés"
+
+msgid "fixed amount"
+msgstr "fix összeg"
+
+msgid "Target:"
+msgstr "Cél:"
+
+msgid "Calculate commission for:"
+msgstr "Erre számoljuk a jutalékot:"
+
+msgid "Course in this campaign"
+msgstr "Csak a kampányban levő kurzusra"
+
+msgid "All purchased course"
+msgstr "Az adott vásárlás összes kurzusára"
+
+msgid "Calculate commission for"
+msgstr "Erre számoljuk a jutalékot"
+
+msgid "Amount (excl. VAT)"
+msgstr "Nettó összeg"
+
+msgid "Amount (incl. VAT)"
+msgstr "Bruttó összeg"
+
+msgid "Commission (excl. VAT)"
+msgstr "Nettó jutalék"
+
+msgid "Commission (sum)"
+msgstr "Összes jutalék"
+
+msgid "Not available"
+msgstr "Nem elérhető"
+
+msgid "application"
+msgstr "jelentkezés"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Slideshow
+msgid "Edit slideshow"
+msgstr "Diavetítés szerkesztése"
+
+msgid "Add new slide"
+msgstr "Új slide"
+
+#: msgid "Name" msgstr "Név"
+msgid "Indicator:"
+msgstr "Dia jelző:"
+
+msgid "Enabled:"
+msgstr "Engedélyezett:"
+
+msgid "Same window"
+msgstr "Ugyanabban az ablakban"
+
+msgid "New window"
+msgstr "Új ablakban"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Email
+
+msgid "Emails"
+msgstr "Emailek"
+
+msgid "Sent"
+msgstr "Elküldött"
+
+msgid "Waiting"
+msgstr "Várakozó"
+
+msgid "New email"
+msgstr "Új email"
+
+msgid "Recipients"
+msgstr "Címzettek"
+
+msgid "Recipient"
+msgstr "Címzett"
+
+msgid "Subject"
+msgstr "Tárgy"
+
+msgid "Send after"
+msgstr "Küldés ezután"
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "You can customize your subject and message by adding fields."
+msgstr "Mezők hozzáadásával személyre szabhatod a tárgy mezőt és az üzenet szövegét."
+
+msgid "Each recipient will receive separate a message and will not see other recipients' email addresses."
+msgstr "A címzettek külön üzenetet kapnak és a levélben nem fogják látni a többi címzett email címét."
+
+msgid "Process queue"
+msgstr "Feldolgozás"
+
+msgid "Sent email"
+msgstr "Elküldött"
+
+msgid "Waiting email"
+msgstr "Várakozó"
+
+msgid "Creation"
+msgstr "Létrehozás"
+
+msgid "First open"
+msgstr "Első megnyitás"
+
+msgid "Access count"
+msgstr "Megnyitások"
+
+msgid "You are about to delete this email. Are you sure?"
+msgstr "Arra készülsz, hogy töröld ezt az emailt. Biztos vagy benne?"
+
+msgid ""
+msgstr ""
+#: --------------------------------------------------------------------------------------
+#: Admin\Email template list
+msgid "Enabled"
+msgstr "Engedélyezett"
+
+msgid "Email after order (credit card)"
+msgstr "Email rendelés után (bankkártya)"
+
+msgid "Email after order approved (transfer)"
+msgstr "Email rendelés jóváhagyás után (átutalás)"
+
+msgid "Email after order received (transfer)"
+msgstr "Email rendelés beérkezése után (átutalás)"
+
+msgid "Email after successful signup"
+msgstr "Email regisztráció után"
+
+msgid "Forgotten password: change password link"
+msgstr "Elfelejtett jelszó: jelszóváltoztató link"
+
+msgid "Forgotten password: password changed"
+msgstr "Elfelejtett jelszó: jelszó megváltozott"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Email template list\Edit email
+msgid "Edit template"
+msgstr "Sablon szerkesztése"
+
+msgid "Template name:"
+msgstr "Sablon neve:"
+
+#: msgid "Status" msgstr "Állapot"
+msgid "Subject:"
+msgstr "Tárgy:"
+
+msgid "Fields:"
+msgstr "Mezők:"
+
+msgid "Insert"
+msgstr "Beszúr"
+
+msgid "First name"
+msgstr "Keresztnév"
+
+msgid "Last name"
+msgstr "Vezetéknév"
+
+#: msgid "Email" msgstr
+msgid "Order items"
+msgstr "Megrendelt tételek"
+
+msgid "Order total"
+msgstr "Fizetendő összeg"
+
+msgid "Site URL"
+msgstr "Web cím"
+
+#: msgid "Company name" msgstr "Cégnév"
+msgid "Company email"
+msgstr "Cég email"
+
+msgid "Company phone"
+msgstr "Cég telefon"
+
+msgid "Company web"
+msgstr "Cég weboldal"
+
+msgid "Change password link"
+msgstr "Jelszóváltoztató link"
+
+msgid "Link expiry date"
+msgstr "Link lejárati ideje"
+
+msgid "Signup date"
+msgstr "Regisztráció ideje"
+
+#: msgid "Save" msgstr "Mentés"
+#: --------------------------------------------------------------------------------------
+#: Admin\Organizations\Site config "Change picture" "Képcsere"
+msgid "Default"
+msgstr "Alap beállítás"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Menu Items
+
+msgid "Menu items"
+msgstr "Egyedi menüpontok"
+
+msgid "Add new"
+msgstr "Új hozzáadása"
+
+msgid "Link target:"
+msgstr "Link megnyitás:"
+
+msgid "Order:"
+msgstr "Sorrend:"
+
+msgid "Delete menu"
+msgstr "Menüpont törlése"
+
+msgid "You are about to delete this menu. Are you sure?"
+msgstr "Arra készülsz, hogy töröld ezt a menüpontot. Biztos vagy benne?"
+
+msgid "Unnamed"
+msgstr "Névtelen"
+
+#: msgid "Save" msgstr "Mentés"
+#: --------------------------------------------------------------------------------------
+#: Admin\Site config tabs
+
+
+msgid "Company"
+msgstr "Cég"
+
+msgid "Payment"
+msgstr "Fizetés"
+
+#: msgid "Barion" msgstr
+msgid "Szamlazz.hu"
+msgstr "Számlázz.hu"
+
+msgid "Legal texts"
+msgstr "Jogi szövegek"
+
+#: --------------------------------------------------------------------------------------
+#: Admin\Site config configs
+
+
+# ----------------[ Settings ]----------------
+
+msgid "Site title"
+msgstr "Az oldal címe"
+
+
+msgid "Page slogan"
+msgstr "Szlogen"
+
+msgid "A short page slogan displayed on the home page."
+msgstr "Rövid szlogen, amit a rendszer a főoldalon megjelenít."
+
+
+msgid "Sales enabled"
+msgstr "Kereskedés engedélyezése"
+
+msgid "If you disable sales, nobody wil be able to purchase courses."
+msgstr "Ha ez a checkbox nincsen bekapcsolva, akkor az oldalon nem lehet kurzusokat vásárolni, avagy letiltható a kereskedés."
+
+
+msgid "System default language"
+msgstr "Rendszer alapértelmezett nyelve"
+
+msgid "The language of the system by default."
+msgstr "Ez lesz a rendszer nyelve alapértelmezés szerint."
+
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "The currency used in the system"
+msgstr "A rendszerben használt fizetőeszköz"
+
+
+msgid "VAT %"
+msgstr "ÁFA (%)"
+
+msgid "Value Added Tax %"
+msgstr "A kurzusok ÁFA kulcsa"
+
+
+msgid "Courses per page"
+msgstr "Kurzusok száma oldalanként"
+
+msgid "The number of courses listed on a page"
+msgstr "Az egy oldalon megjelenített kurzusok száma"
+
+
+msgid "Enable teacher application"
+msgstr "Tanárnak jelentkezés"
+
+msgid "Enable or disable the teacher application"
+msgstr "Felhasználók tanárnak jelentkezésének engedélyezése vagy tiltása"
+
+
+msgid "Teachers menu ON/OFF"
+msgstr "Tanárok menü KI/BE"
+
+msgid "You can enable or disable the Teachers menu"
+msgstr "A Tanárok menü ki és bekapcsolása"
+
+
+# ----------------[ Branding ]----------------
+
+msgid "Branding"
+msgstr "Kinézet"
+
+
+msgid "Header"
+msgstr "Fejléc"
+
+
+msgid "Logo"
+msgstr "Logó"
+
+msgid "Site logo. Maximum size: 120x35 pixel."
+msgstr "Maximum méret: 120x35 pixel."
+
+
+msgid "Link color"
+msgstr "Link színe"
+
+msgid "Hyperlink text color"
+msgstr "Linkek színének megváltoztatása"
+
+
+msgid "Link hover color"
+msgstr "Link színe (hover)"
+
+msgid "Hyperlink text color on hover"
+msgstr "Link színe, ha az egér fölötte áll"
+
+
+msgid "Active menu bg color"
+msgstr "Aktív menü háttér színe"
+
+msgid "Background color of the active menu item"
+msgstr "Az aktív menüelem háttérszíne"
+
+
+msgid "Active menu text color"
+msgstr "Aktív menü szöveg színe"
+
+msgid "Text color of the active menu item"
+msgstr "Az aktív menüelem szöveg színe"
+
+
+msgid "Header color"
+msgstr "Fejléc színe"
+
+msgid "Page header color"
+msgstr "Az oldal fejlécének színe"
+
+
+msgid "Menu text color"
+msgstr "Menü szöveg színe"
+
+msgid "Menu item text color"
+msgstr "A fejlécen levü menüelemek szövegszíne"
+
+
+msgid "Menu hover color"
+msgstr "Menü szöveg színe (hover)"
+
+msgid "Menu item hover color"
+msgstr "Menü szöveg színe, ha az egér fölötte áll"
+
+
+msgid "Menu fixed to top ON/OFF"
+msgstr "Menü rögzítése KI/BE"
+
+msgid "Fixed main menu ON/OFF"
+msgstr "Bekapcsolt állapotban a menü az oldal tetejéhez rogzített"
+
+
+msgid "Menu position"
+msgstr "Menü elhelyezése"
+
+msgid "Change menu position"
+msgstr "Menü helyzetének módosítása"
+
+
+msgid "Menu icons ON/OFF"
+msgstr "Menü ikonok KI/BE"
+
+msgid "Switch ON or OFF the icons in the main menu"
+msgstr "Főmenü ikonjainak KI/BE kapcsolása"
+
+
+msgid "Page"
+msgstr "Oldal"
+
+
+msgid "Site bg color"
+msgstr "Oldal háttér színe"
+
+
+msgid "Footer"
+msgstr "Lábléc"
+
+
+msgid "Site background color"
+msgstr "Az oldal hátterének színe"
+
+
+msgid "Footer bg color"
+msgstr "Lábléc háttér színe"
+
+msgid "Footer background color"
+msgstr "Lábléc hátterének színe"
+
+
+msgid "Footer text color"
+msgstr "Lábléc szöveg színe"
+
+
+msgid "Counter icons"
+msgstr "Számláló ikonok"
+
+msgid "Counter icon color"
+msgstr "Ikon színe"
+
+msgid "Counter number color"
+msgstr "Szám színe"
+
+msgid "Counter name color"
+msgstr "Címke színe"
+
+msgid "Counter bg color"
+msgstr "Számláló háttér színe"
+
+msgid "Counter background color"
+msgstr "Számláló háttér színe"
+
+
+msgid "Login page"
+msgstr "Bejelentkező oldal"
+
+
+msgid "Login header image"
+msgstr "Bejelentkező oldal képe"
+
+msgid "login header image"
+msgstr "A bejelentkező oldalon megjelenő kép"
+
+# ----------------[ Home page ]----------------
+
+msgid "Home header image"
+msgstr "Főoldal fejléc kép"
+
+msgid "Home page header image"
+msgstr "A főoldal fejlécének képe"
+
+
+msgid "Enable counter badges"
+msgstr "Számláló ikonok KI/BE"
+
+msgid "Counter badges shows information about number of courses, teachers and the available length of all videos on the home page."
+msgstr "A számláló ikonok a főoldalon adnak információt a kurzusok számáról, tanárok számáról és az oldalon levő videók hosszáról"
+
+
+msgid "Home page search box ON/OFF"
+msgstr "Főoldali kereső doboz KI/BE"
+
+msgid "You can enable or disable the search box on the home page"
+msgstr "A kurzus kereső doboz ki/be kapcsolása a főoldalon"
+
+
+msgid "Newest courses ON/OFF"
+msgstr "Legújabb kurzsuok KI/BE"
+
+msgid "Switch ON to show the newest 4 courses"
+msgstr "A legújabb 4 kurzus ki/be kapcsolása"
+
+
+msgid "Best selling courses ON/OFF"
+msgstr "Legnépszerűbb kurzusok ki/be"
+
+msgid "Switch ON to show the 4 best selling courses"
+msgstr "A legnépszerűbb 4 kurzus ki/be kapcsolása"
+
+
+msgid "Home page custom content"
+msgstr "Főoldali saját tartalom (felső)"
+
+msgid "Custom HTML content on the home page"
+msgstr "A főoldalon megjelenő egyedi HTML tartalom"
+
+
+msgid "Home page custom content (bottom)"
+msgstr "Főoldali saját tartalom (alső)"
+
+msgid "Custom HTML content on the bottom of the home page"
+msgstr "A főoldal alján megjelenő egyedi HTML tartalom"
+
+
+# ----------------[ Company ]----------------
+
+msgid "Company name"
+msgstr "Cégnév"
+
+msgid "This will be shown on the contact page and on the invoice."
+msgstr "A cég neve, ami a számlán is megjelenik."
+
+
+msgid "Billing address"
+msgstr "Számlázási cím"
+
+msgid "Billing address (Address, City, ZIP)"
+msgstr "Teljes cím. Pl.: 1111 Budapest, Teszt u. 3/B"
+
+
+msgid "Bank account"
+msgstr "Bankszámlaszám"
+
+
+msgid "Tax number of the company."
+msgstr "A cég adószáma."
+
+
+msgid "Name of the bank where the company has the bank account."
+msgstr "A bank neve, ahol a bankszámlát vezeti a cég."
+
+
+msgid "This will be shown on the invoice as well."
+msgstr "Számlán is megjelenik."
+
+
+msgid "This will be shown on the contact page."
+msgstr "A Kapcsolat oldalon jelenik meg"
+
+
+msgid "Web page"
+msgstr "Honlap"
+
+msgid "Company web address (eg. http://example.com)"
+msgstr "A cég weboldalának címe (pl. http://azencegem.hu)"
+
+
+msgid "Registrator authority"
+msgstr "Nyilvántartásba vevő hatóság"
+
+msgid "In Hungary it is needed to provide your registrator authority on the Impressum page."
+msgstr "Cég esetében a cégjegyzéket vezető cégbíróság, társadalmi szervezeteknél a nyilvántartásba vételt intéző megyei törvényszék, egyéb nyilvántartásba vett szervezetnél a jogszabály által megjelölt hatóság."
+
+
+msgid "Chamber of commerce"
+msgstr "Kamara"
+
+msgid "In Hungary it is needed to provide the chamber of commerce where you are registered to on the Impressum page."
+msgstr "Akár önként, akár jogszabályi előírás folytán tagja valamelyik kamarának, a kamara megnevezése kötelező eleme az impresszumnak."
+
+
+msgid "Social icons"
+msgstr "Közösségi ikonok"
+
+
+msgid "Facebook page"
+msgstr "Facebook oldal"
+
+
+msgid "Facebook page address (eg. http://facebook.com/MyCompany)"
+msgstr "Facebook oldal címe (pl. http://facebook.com/AzEnCegem)"
+
+
+msgid "Twitter URL"
+msgstr "Twitter cím"
+
+
+msgid "Google+ URL"
+msgstr "Google+ cím"
+
+
+msgid "Youtube channel URL"
+msgstr "Youtube cím"
+
+
+msgid "Instagram URL"
+msgstr "Instagram cím"
+
+
+msgid "Tumblr URL"
+msgstr "Tumblr cím"
+
+
+msgid "Pinterest URL"
+msgstr "Pinterest cím"
+
+# ----------------[ Payment ]----------------
+
+msgid "Bank transfer payments ON/OFF"
+msgstr "Banki átutalás KI/BE"
+
+msgid "Enable or disable bank transfer payment option"
+msgstr "Banki átutalás ki/be kapcsolása"
+
+
+msgid "Transfer deadline (days)"
+msgstr "Átutalás határideje (nap)"
+
+msgid "Time limit for the customer to pay with bank transfer"
+msgstr "Átutalási idő napban számolva. Ezt használjuk a számla kiállításánál is."
+
+
+msgid "Barion payments ON/OFF"
+msgstr "Barion/bankkártyás fizetés KI/BE"
+
+msgid "Enable or disable Barion payment option"
+msgstr "Barion és bankkártyaás fizetési módok ki/be kapcsolása"
+
+
+msgid "Barion shop URL"
+msgstr "Bolt URL-je"
+
+msgid "This is your Barion shop URL."
+msgstr "Ezt kell beírnod a 'Bolt URL-je' mezőbe a Barion boltod szerkesztésekor."
+
+
+msgid "Barion return URL"
+msgstr "Bolt visszatérési URL-je"
+
+msgid "Barion returns to this URL after the payment process finished."
+msgstr "Ezt kell beírnod a 'Bolt visszatérési URL-je' mezőbe a Barion boltod szerkesztésekor."
+
+
+msgid "Barion callback URL"
+msgstr "Bolt visszahívási URL-je"
+
+msgid "Barion technical callback URL which is called after the payment process finished."
+msgstr "Ezt kell beírnod a 'Bolt visszahívási URL-je' mezőbe a Barion boltod szerkesztésekor."
+
+
+msgid "PosKey"
+msgstr "Titkos azonosító (POSKey)"
+
+msgid "Secret identifier generated by Barion which allows you to receive payments. This is authorizes you ONLY TO RECEIVE payments."
+msgstr "A Barion által generált titkos azonosító, amely fizetések indítására felhatalmaz, de a Barion tárcához hozzáférést nem biztosít."
+
+
+msgid "Payee"
+msgstr "Barionba regisztrált e-mail cím"
+
+msgid "The registered Barion user's email address who receives the payment."
+msgstr "A fizetést fogadó Barion felhasználó címe."
+
+msgid "Barion environment"
+msgstr "Barion környezet"
+
+msgid "Test environment"
+msgstr "Teszt környezet"
+
+msgid "Production environment"
+msgstr "Éles környezet"
+
+msgid "Choose the Barion environment!"
+msgstr "Válaszd ki a Barion környezetet! Éles környezetet csak akkor adj meg, ha minden készen áll a vásárlások élesítéséhez!"
+
+# ----------------[ Számlázz.hu ]----------------
+
+msgid "User name"
+msgstr "Felhasználó"
+
+msgid "Szamlazz.hu account e-mail address"
+msgstr "Számlázz.hu felhasználó jelszava. Nem jelenítjük meg."
+
+
+msgid "Szamlazz.hu account password."
+msgstr "Számlázz.hu felhasználó e-mail címe."
+
+
+# ----------------[ Integration ]----------------
+
+msgid "Integration"
+msgstr "Integráció"
+
+
+msgid "Facebook pixel"
+msgstr "Facebook képpont"
+
+msgid "Copy your facebook pixel code here"
+msgstr "Ide másold be a facebook képpontod kódját (Javascript)"
+
+
+msgid "Google Analytics code"
+msgstr "Google Analytics kód"
+
+msgid "Javascript code provided by Google Analytics."
+msgstr "Google Analytics által biztosított követő kód (Javascript)."
+
+
+msgid "StatCounter code"
+msgstr "StatCounter kód"
+
+msgid "Javascript code provided by Statcounter."
+msgstr "Statcounter által biztosított követő kód (Javascript)."
+
+
+msgid "HotJar code"
+msgstr "HotJar kód"
+
+msgid "Javascript code provided by HotJar."
+msgstr "HotJar által biztosított kód (Javascript)"
+
+# ----------------[ Email ]----------------
+
+msgid "Mail server name"
+msgstr "Email szerver név"
+
+msgid "Short name of the server. (eg. 'Gmail')"
+msgstr "Rövid, megjegyezhető név (pl.: 'Gmail')"
+
+
+msgid "Host"
+msgstr "Host"
+
+msgid "The host name of the mail server. (eg. smtp.gmail.com)"
+msgstr "Az email szerver host neve (pl.: smtp.gmail.com)"
+
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Mail server port (eg. 587)"
+msgstr "Email szerver portja (pl.: 587)"
+
+
+msgid "Authentication"
+msgstr "Használ authentikációt?"
+
+msgid "If the server requires authentication, check this option."
+msgstr "Amennyiben a levelező szerver használatához felhasználónév és jelszó kell, ezt be kell pipálni. Ellenkező esetben a további beállításokat nem veszi figyelembe."
+
+
+msgid "TLS/SSL"
+msgstr "TLS/SSL"
+
+msgid "Enable/disable TLS/SSL."
+msgstr "TLS/SSL használatának engedélyezése."
+
+
+msgid "User name of the mail account."
+msgstr "A levelezőszerverhez használt felhasználónév."
+
+
+msgid "Password of the mail account."
+msgstr "Az email szerver használatához használt jelszó."
+
+
+msgid "From address"
+msgstr "Küldő e-mail címe"
+
+msgid "This will be the from email address for all outgoing emails."
+msgstr "Ez az email cím jelenik meg a levélben a küldőnél. (pl. ertesites@tudaspiac.hu)"
+
+
+msgid "From name"
+msgstr "Küldő neve"
+
+msgid "This will be the sender's name for all outgoing emails. (eg. John Doe)"
+msgstr "Ez a név jelenik meg az emailben a küldőnél (pl.: TudásPiac Értesítés)"
+
+# ----------------[ Legal texts ]----------------
+
+msgid "Terms and Conditions"
+msgstr "ÁSZF"
+
+msgid "Terms and Conditions are available via the link in the page footer"
+msgstr "Az Általános Szolgáltatási Feltételek szövege"
+
+
+msgid "Privacy Policy"
+msgstr "Adatkezelési nyilatkozat"
+
+msgid "Privacy policy is available via the link in the page footer"
+msgstr "Az adatkezelési nyilatkozat szövege."
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+
+#: --------------------------------------------------------------------------------------
+#: Contact page
+msgid "Jump to Facebook page"
+msgstr "Ugrás a Facebook oldalra"
+
+#: --------------------------------------------------------------------------------------
+#: Terms And Conditions page
+
+msgid "Back"
+msgstr "Vissza"
+
+#: --------------------------------------------------------------------------------------
+#: Purchase stet
+msgid "Product in cart"
+msgstr "A kosár nem üres"
+
+msgid "You have product(s) in the cart."
+msgstr "Terméket tettél a kosaradba."
+
+msgid "Order received"
+msgstr "Megrendelés leadva"
+
+msgid "Your order has been received."
+msgstr "A megrendelésedet megkaptuk."
+
+msgid "Waiting for proforma"
+msgstr "Díjbekérőre vár"
+
+msgid "Waiting for Payment"
+msgstr "Fizetésre vár"
+
+msgid "Proforma creation error"
+msgstr "Díjbekérő hiba"
+
+msgid "Waiting for Barion payment start"
+msgstr "Barion fizetés indításra vár"
+
+msgid "Barion payment start error"
+msgstr "Barion fizetés indítási hiba"
+
+msgid "Barion payment start done"
+msgstr "Barion fizetés indítás kész"
+
+msgid "Barion payment done"
+msgstr "Barion fizetés kész"
+
+msgid "Barion payment error"
+msgstr "Barion fizetés hiba"
+
+msgid "You cancelled the payment process."
+msgstr "A fizetési folyamator megszakítottad."
+
+msgid "Barion payment cancelled"
+msgstr "Barion fizetés megszakítva"
+
+msgid "Payment cancelled"
+msgstr "Fizetés megszakítva"
+
+msgid "Waiting for invoice creation"
+msgstr "Számlázásra vár"
+
+msgid "Invoice creation done"
+msgstr "Számla elkészült"
+
+msgid "Invoice creation error"
+msgstr "Számlakészítés hiba"
+
+msgid "Order completed"
+msgstr "Sikeres vásárlás"
+
+msgid "The order has been completed."
+msgstr "A vásárlás sikeresen lezajlott."
+
+msgid "Order cancelled"
+msgstr "Megrendelés törölve"
+
+msgid "The order has been cancelled."
+msgstr "A megrendelés törölve lett."
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "We have a problem processing your order."
+msgstr "A feldolgozás során hiba történt."
+
+msgid "Processing"
+msgstr "Feldolgozás"
+
+msgid "We are processing your order."
+msgstr "A megrendelés feldolgozás alatt."
+
+#: --------------------------------------------------------------------------------------
+#: CSRF
+
+msgid "The form submitted did not originate from the expected site"
+msgstr "Az űrlap lejárt vagy nem a várt oldalról érkezett"
+
+#: --------------------------------------------------------------------------------------
+#: Error - 404
+msgid "Oh no!"
+msgstr "Ajjaj!"
+
+msgid "The requested page can not be found. :("
+msgstr "Ezt az oldalt nem találjuk! :("
+
+msgid "Error 404"
+msgstr "404-es hiba: a keresett oldal nem található."
+
+#: --------------------------------------------------------------------------------------
+#: DB connection error
+msgid "Oh no! Failed to connect to database. :("
+msgstr "Ajjaj! Nem sikerült csatlakozni az adatbázishoz. :("
+
+#: --------------------------------------------------------------------------------------
+#: Error - Already purchased
+msgid "You already purchased this course."
+msgstr "Ezt a kurzust már megvásároltad!"
+
+#: --------------------------------------------------------------------------------------
+#: Error - Not in the cart
+msgid "The course is not in the cart."
+msgstr "A megadott kurzus nincsen a kosárban."
+
+#: --------------------------------------------------------------------------------------
+#: Error - No permission
+msgid "You don't have permission."
+msgstr "Ehhez a művelethez nincsen jogosultságod!"
+
+msgid "We inform you that this action was logged."
+msgstr "Tájékoztatunk, hogy a jogosulatlan hozzáférés kísérletét naplóztuk."
+
+#: --------------------------------------------------------------------------------------
+#: Error - File is not available
+msgid "File is not available"
+msgstr "A fájl nem elérhető!"
+
+msgid "The file you are looking for is not available at the moment."
+msgstr "A keresett fájl jelenleg nem elérhető."
+
+#: --------------------------------------------------------------------------------------
+#: Error - Multiple login
+
+msgid "Mulitiple sessions error"
+msgstr "Több egyidejű munkamenet"
+
+msgid ""
+"Somebody (maybe you) logged in with this account on another device or "
+"browser."
+msgstr ""
+"Másik böngészőben vagy másik eszközön új munkamenetet indítottál, ezért a "
+"jenlenlegi munkamenetedet a rendszer lezárta."
+
+msgid ""
+"We inform you that account sharing is prohibited and can lead to account "
+"deletion."
+msgstr ""
+"Felhívjuk figyelmedet, hogy a felhasználói fiókod megosztása más "
+"személyekkel nem megengedett a rendszerben. Az ilyen jellegű tevékenység a "
+"felhasználói fiókod törléséhez vezet."
+
+msgid ""
+"If it was not you, we highly recommend you to change your password "
+"immediately."
+msgstr ""
+"Ha nem te jelentkeztél be, akkor erősen ajánlott az azonnali jelszócsere, "
+"amit bejelentkezés után a Saját menü Profilom menüpontjában tudsz megtenni."
+
+msgid "We have logged this activity."
+msgstr "Tájékoztatunk, hogy a rendszer ezt az eseményt naplózta."
+
+#: --------------------------------------------------------------------------------------
+#: Error - Download\No permission
+msgid "You need to purchase the course to have access to this file."
+msgstr "Vásárold meg a kurzust, hogy letölthesd a kért fájlt!"
+
+#: --------------------------------------------------------------------------------------
+#: AJAX error messages
+msgid "Check your network connection!"
+msgstr "Nincs kapcsolat. Ellenőrizze a hálózatot!"
+
+msgid "The requested page can not be found. [404]"
+msgstr "A kért oldal nem található. [404]"
+
+msgid "Internal server error. [500]"
+msgstr "Szerver hiba. [500]"
+
+msgid "JSON parsing error."
+msgstr "A kért JSON parse-olása sikertelen."
+
+msgid "Timeout."
+msgstr "Időtúllépés."
+
+msgid "AJAX request aborted"
+msgstr "Ajax kérés megszakítva."
+
+msgid "The server is not available at the moment. Please try again later."
+msgstr "A szerver jelenleg nem elérhető. Próbálja meg később!"
+
+#: --------------------------------------------------------------------------------------
+#: Human readable time helper
+msgid "day"
+msgstr "nap"
+
+msgid "days"
+msgstr "nap"
+
+msgid "hour"
+msgstr "óra"
+
+msgid "hours"
+msgstr "óra"
+
+msgid "min"
+msgstr "perc"
+
+msgid "minute"
+msgstr "perc"
+
+msgid "minutes"
+msgstr "perc"
+
+msgid "sec"
+msgstr "mp"
+
+msgid "second"
+msgstr "másodperc"
+
+msgid "seconds"
+msgstr "másodperc"
+
+# day
+msgid "d"
+msgstr "n"
+
+# hour
+msgid "h"
+msgstr "ó"
+
+# minute
+msgid "m"
+msgstr "p"
+
+# second
+msgid "s"
+msgstr "mp"
+
+#: --------------------------------------------------------------------------------------
+#: Months
+msgid "January"
+msgstr "Január"
+
+msgid "February"
+msgstr "Február"
+
+msgid "March"
+msgstr "Március"
+
+msgid "April"
+msgstr "Április"
+
+msgid "May"
+msgstr "Május"
+
+msgid "June"
+msgstr "Június"
+
+msgid "July"
+msgstr "Július"
+
+msgid "August"
+msgstr "Augusztus"
+
+msgid "September"
+msgstr "Szeptember"
+
+msgid "October"
+msgstr "Október"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+#: --------------------------------------------------------------------------------------
+#: Directions
+
+msgid "Left"
+msgstr "Bal"
+
+msgid "Right"
+msgstr "Jobb"
+
+#: --------------------------------------------------------------------------------------
+#: DB Constants - Levels
+msgid "beginner"
+msgstr "kezdő"
+
+msgid "intermediate"
+msgstr "középfokú"
+
+msgid "advanced"
+msgstr "haladó"
+
+msgid "for everybody"
+msgstr "bárki számára"
+
+msgid "Guest"
+msgstr "Vendég"
+
+msgid "Member"
+msgstr "Tanuló"
+
+msgid "Student"
+msgstr "Tanuló"
+
+msgid "Administrator"
+msgstr "Adminisztrátor"
+
+msgid "Director (owner)"
+msgstr "Előfizető"
+
+#: --------------------------------------------------------------------------------------
+#: Languages
+
+msgid "Hungarian"
+msgstr "magyar"
+
+msgid "English"
+msgstr "angol"
+
+msgid "French"
+msgstr "francia"
+
+msgid "German"
+msgstr "német"
+
+msgid "Italian"
+msgstr "olasz"
+
+msgid "Spanish"
+msgstr "spanyol"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+

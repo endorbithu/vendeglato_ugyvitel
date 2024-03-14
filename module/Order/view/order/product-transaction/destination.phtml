@@ -1,0 +1,52 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.21.
+ * Time: 12:58
+ */
+$this->headScript()->prependFile($this->basePath('js/select2/select2.min.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/select2/select2.init.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/order/destination.js'));
+
+$sign = str_replace(0, '', $this->money(0));
+
+?>
+<h1><?= $destinationName ?></h1>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+
+<div id="ingr-transaction-fieldset">
+    <?php echo $this->formCollection($form->get('StockTransaction')); ?>
+</div>
+<div id="hiddenAmount">
+    <?php foreach ($hiddenAmount as $anAmount): ?>
+        <?= $anAmount . "\n" ?>
+    <?php endforeach; ?>
+</div>
+
+<a id="new-order" class="btn btn-sm btn-primary"
+   href="<?= $this->url('producttransaction', ['action' => 'order', 'from' => '18', 'to' => $from]) ?>">
+    <span class="glyphicon glyphicon-import"></span>
+    <?= $this->translate('Új rendelés') ?>
+</a>
+
+<div id="move-destination-list">
+    <select id="destination-select" class="select2" style="width: 100%"> <!-- TODO: #165 inline style.. -->
+        <option value=""></option>
+        <?php foreach ($destinations as $destination): ?>
+            <option value="<?= $destination->getId(); ?>"><?= $destination->getName() ?></option>
+        <?php endforeach; ?>
+    </select>
+</div>
+
+
+<span class="price-in-button" id="total-price">(<?= $this->money($total); ?>)</span>
+<span class="price-in-button" id="part-price">(<span id="part-price-number">0</span> <?= $sign; ?>)</span>
+
+
+
+
+
+

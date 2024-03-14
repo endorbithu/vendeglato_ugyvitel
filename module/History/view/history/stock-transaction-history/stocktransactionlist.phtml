@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.11.01.
+ * Time: 17:04
+ */
+
+
+?>
+
+<h1> <?= $typeName ?></h1>
+<h2><?= $fromDate->format('Y.m.d') . '<span class="time-grey"> 00:00 </span>- ' . $toDate->format('Y.m.d') . '<span class="time-grey"> 23:59</span>'; ?></h2>
+<?php if ($total !== false): ?>
+    <h3><?= $this->translate('Bruttó') ?>: <?= $this->money($total) ?></h3>
+<?php endif; ?>
+
+<?= $this->datatable()->renderFromModel($datatableStockTransaction); ?>
+
+
+
+
+
+

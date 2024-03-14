@@ -1,0 +1,53 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.15.
+ * Time: 9:41
+ */
+
+?>
+
+<h1><?= $title ?></h1>
+<h2><?= $fromName ?> <span class="glyphicon glyphicon-arrow-right"> </span> <?= $toName ?></h2>
+
+<?= $this->datatable()->renderFromModel($datatableModel) ?>
+
+<div id="money-transaction-filedset">
+    <?= $this->formCollection($form->get('StockTransaction')); ?>
+</div>
+
+
+<a id="selectable-change"
+   href="<?= $this->url('moneytransaction', ['action' => $actionName, 'from' => $from, 'to' => $to]); ?>?selectable=<?= $selectableId ?>"
+   class="btn btn-sm btn-default"><?= $this->translate($changeSelectableLabel) ?></a>
+
+<script>
+    /*
+     $('#selectrow').on('change', function () {
+     $(".extrainput").each(function () {
+     $(this).attr('max', $(this).parent().parent().find(".stock-amount").val());
+     });
+     });
+
+     $('.pagination').on('change', function () {
+     $(".extrainput").each(function () {
+     $(this).attr('max', $(this).parent().parent().find(".stock-amount").val());
+     });
+     });
+
+     */
+
+    //TODO: #155 a hidden inputokat is át kell nézni, hogy legyen max értéke, kivévea
+    $(form).append($("#money-transaction-filedset"));
+    $(".datatable-toolbar").append($("#selectable-change"));
+    $(".extrainput").each(function () {
+        //  $(this).attr('max', $(this).parent().parent().find(".stock-amount").val());
+    });
+
+    $('[for=money-transaction-more-info]').attr('style', 'font-weight:normal');
+    $('.modal-body').append($('[for=money-transaction-more-info]'));
+    $('.modal-body').append($('#money-transaction-more-info'));
+
+</script>
+

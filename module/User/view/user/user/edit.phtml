@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.29.
+ * Time: 18:57
+ */
+$this->headScript()->prependFile($this->basePath('js/select2/select2.min.js'));
+$this->inlineScript()->appendFile($this->basePath('/js/select2/select2.init.js'));
+
+?>
+
+<h1><?= $title ?></h1>
+
+<?= $this->form()->render($form); ?>

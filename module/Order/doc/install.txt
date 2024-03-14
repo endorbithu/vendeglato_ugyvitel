@@ -1,0 +1,1 @@
+azok az sql változások amik a Catalogon felül kellenek, pl több asztal, több storagetype stb,

@@ -1,0 +1,81 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.09.24.
+ * Time: 10:59
+ */
+
+
+$actionName = 'productContainIngredient';
+$datas = [
+    0 => ['1', 'név1', 'kateg1', '2015-12-12',],
+    1 => ['2', 'név2', 'kateg2', '2015-12-12',],
+    2 => ['3', 'név3', 'kateg3', '2015-12-12',],
+    3 => ['4', 'név4', 'kateg4', '2015-12-12',],
+    4 => ['5', 'név5', 'kateg5', '2015-12-12',],
+    5 => ['6', 'név6', 'kateg6', '2015-12-12',],
+    6 => ['7', 'név7', 'kateg7', '2015-12-12',],
+    7 => ['8', 'név8', 'kateg8', '2015-12-12',],
+    8 => ['9', 'név9', 'kateg9', '2015-12-12',],
+    9 => ['10', 'név10', 'kateg10', '2015-12-12',],
+    10 => ['11', 'név11', 'kateg11', '2015-12-12',],
+    11 => ['12', 'név12', 'kateg12', '2015-12-12',],
+
+];
+
+
+//itt lehet megdolgozni az egyes oszlopokat
+foreach ($datas as $key => $data) {
+    $datas[$key][1] = '<a href="' . $data[1] . '">' . $data[1] . '</a>';
+}
+
+
+
+
+/** @var \Application\View\Helper\DatatableHelper $tableproba */ //Így DatatableHelper típusként fogja a phpstorm kezelni
+$tableproba = $this->datatable();
+$tableproba->initTable($actionName, ['id', 'név', 'kateg'], $datas, 2, null);
+
+
+$tableproba->addSelectable($tableproba::CHECKBOX);
+$tableproba->addSelectedRow([1,3,5]);
+
+
+$tableproba->addAction([['name'=>'Törlés', 'actionUrl'=>'prgerror', 'warningText'=>'Biztos ezt akarod?','icon'=>'remove'],
+                      // ['name'=>'Módosítás', 'actionUrl'=>'prg', 'warningText'=>'Biztos ezt akarod?','icon'=>'edit'],
+
+]);
+
+
+
+$tableproba->addInput([['inputType'=>'text','inputName'=>'extrainout1name','whichColumn'=>2,'valueColumn'=>2],
+                        ['inputType'=>'date','inputName'=>'extrainout2name','whichColumn'=>3,'valueColumn'=>null] ]);
+
+
+$table = $tableproba->render();
+
+
+?>
+
+
+<form id="<?= $actionName; ?>-form" method="post">
+
+    <?= $table ?>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

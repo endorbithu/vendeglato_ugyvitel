@@ -1,0 +1,195 @@
+<?= $this->doctype() ?>
+
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <?= $this->headTitle('Vendéglátó')->setSeparator(' - ')->setAutoEscape(false) ?>
+
+    <?= $this->headMeta()
+        ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+        ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+    ?>
+
+    <!-- Le styles -->
+    <?= $this->headLink(['rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'])
+        ->prependStylesheet($this->basePath() . '/css/select2/select2-mod.css')
+        ->prependStylesheet($this->basePath() . '/css/select2/select2-bootstrap.css')
+        ->prependStylesheet($this->basePath() . '/css/select2/select2.css')
+        //gyári: ennek kell a végén lenni, mert fordított sorrendbe töltődik be
+        ->prependStylesheet($this->basePath('css/style-mobile.css'))
+        ->prependStylesheet($this->basePath('css/style.css'))
+        ->prependStylesheet($this->basePath('css/bootstrap-theme.min.css'))
+        ->prependStylesheet($this->basePath('css/bootstrap.min.css'))
+    //gyárivége
+
+    ?>
+
+    <!-- Scripts -->
+    <?= $this->headScript()
+        ->prependFile($this->basePath('js/bootstrap.min.js'))
+        ->prependFile($this->basePath('js/jquery-2.2.4.min.js'))
+    //gyárivége
+
+
+    ?>
+</head>
+<body>
+<!-- TODO: #138 db-ben megcsinálni a menürendszert -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="<?php echo $this->url('index') ?>">
+                <img src="<?= $this->basePath('img/vlogo-a-kep-merete-miatt-esik-szet.png') ?>"
+                     alt="Vendéglátó <?= \Application\Module::VERSION ?>"/>&nbsp;
+                <?php if (!empty($this->identity())): ?>
+                    <?= $this->identity()->getUsername() ?>
+                    [<?= $this->identity()->getRole()->getDisplayName() ?>]
+                <?php endif; ?>
+            </a>
+        </div>
+       <!-- ---------Csinálni egy saját URL() helpert mert az alap elszáll ha nincs routematch ---------- -->
+       <?php /*
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li<?= ($this->url() === '/' || $this->url() === '') ? ' class="active"' : ''; ?>><a href="<?= $this->url('index') ?>"><span
+                            class="glyphicon glyphicon-home"></span></a></li>
+                <?php if (!empty($this->identity())): ?>
+                    <li<?= (strpos($this->url(), '/order') !== false) ? ' class="active"' : ''; ?>><a
+                            href="<?= $this->url('order'); ?>"><span
+                                class="glyphicon glyphicon-usd"></span> <?= $this->translate('Rendelés'); ?></a></li>
+                    <li<?= ((strpos($this->url(), '/catalog/stock') !== false) || (strpos($this->url(), '/catalog/ingrtransaction') !== false)) ? ' class="active"' : ''; ?>>
+                        <a href="<?= $this->url('stock', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-inbox"></span> <?= $this->translate('Készlet') ?></a></li>
+                    <li<?= (strpos($this->url(), '/basedata') !== false) ? ' class="active"' : ''; ?>><a
+                            href="<?= $this->url('basedatacollection', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-th-list"></span> <?= $this->translate('Törzsadatok') ?></a>
+                    </li>
+                    <li<?= (strpos($this->url(), '/history') !== false) ? ' class="active"' : ''; ?>>
+                        <a href="<?= $this->url('history', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-stats"></span> <?= $this->translate('Lekérdezés') ?></a></li>
+                    <!-- TODO: #139 MŰSZAKVÁLTÁS <li><a href="#"><span class="glyphicon glyphicon-sort"></span> <?= $this->translate('Műszak') ?></a></li> -->
+                    <li<?= (strpos($this->url(), '/settings') !== false) ? ' class="active"' : ''; ?>><a
+                            href="<?= $this->url('settings', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-cog"></span> <?= $this->translate('Beállítások') ?></a></li>
+                <?php endif; ?>
+                <?php if (!empty($this->identity())): ?>
+                    <li><a href="<?= $this->url('logout') ?>"><?= $this->translate('Kilépés') ?> <span
+                                class="glyphicon glyphicon-share-alt"></span> </a></li>
+                <?php else: ?>
+                    <li<?= (strpos($this->url(), '/basedata') !== false) ? ' class="active"' : ''; ?>><a
+                            href="<?= $this->url('login') ?>"><?= $this->translate('Belépés') ?></a></li>
+                <?php endif; ?>
+            </ul>
+        </div>
+
+       */ ?>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="<?= $this->url('index') ?>"><span
+                            class="glyphicon glyphicon-home"></span></a></li>
+                <?php if (!empty($this->identity())): ?>
+                    <li><a
+                            href="<?= $this->url('order'); ?>"><span
+                                class="glyphicon glyphicon-usd"></span> <?= $this->translate('Rendelés'); ?></a></li>
+                    <li>
+                        <a href="<?= $this->url('stock', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-inbox"></span> <?= $this->translate('Készlet') ?></a></li>
+
+                    <li>
+                        <a href="<?= $this->url('toolstock', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-glass"></span> <?= $this->translate('Eszközök') ?></a></li>
+                    <li>
+                        <a href="<?= $this->url('moneystock', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-usd"></span> <?= $this->translate('Pénztár') ?></a></li>
+
+                    <li><a
+                            href="<?= $this->url('basedatacollection', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-th-list"></span> <?= $this->translate('Törzsadatok') ?></a>
+                    </li>
+                    <li>
+                        <a href="<?= $this->url('history', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-stats"></span> <?= $this->translate('Lekérdezés') ?></a></li>
+                    <!-- TODO: #139 MŰSZAKVÁLTÁS <li><a href="#"><span class="glyphicon glyphicon-sort"></span> <?= $this->translate('Műszak') ?></a></li> -->
+                    <li><a
+                            href="<?= $this->url('settings', ['action' => 'index']); ?>"><span
+                                class="glyphicon glyphicon-cog"></span> <?= $this->translate('Beállítások') ?></a></li>
+                <?php endif; ?>
+                <?php if (!empty($this->identity())): ?>
+                    <li><a href="<?= $this->url('logout') ?>"><?= $this->translate('Kilépés') ?> <span
+                                class="glyphicon glyphicon-share-alt"></span> </a></li>
+                <?php else: ?>
+                    <li><a
+                            href="<?= $this->url('login') ?>"><?= $this->translate('Belépés') ?></a></li>
+                <?php endif; ?>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div class="container">
+    <?php if (!empty($statusMessages) || !empty($this->flashMessenger()->hasMessages())): ?>
+        <?php $errorMessages = array_merge($statusMessages->getErrorMessages(), $this->flashMessenger()->getMessages('error')); ?>
+
+			<div class="alert alert-danger">
+                <ul>
+                    
+                        <li>Irásvédett mód / Read only mode</li>
+                    
+                </ul>
+            </div>		
+
+	  <!--
+	   <?php if (!empty($errorMessages)): ?>
+            <div class="alert alert-danger">
+                <ul>
+                    <?php foreach ($errorMessages as $errorMessage) : ?>
+                        <li> <?= $errorMessage; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+        <?php $warningMessages = array_merge($statusMessages->getWarningMessages(), $this->flashMessenger()->getMessages('warning')); ?>
+        <?php if (!empty($warningMessages)): ?>
+            <div class="alert alert-warning">
+                <ul>
+                    <?php foreach ($warningMessages as $warningMessage) : ?>
+                        <li> <?= $warningMessage; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+        <?php $successMessages = array_merge($statusMessages->getSuccessMessages(), $this->flashMessenger()->getMessages('success')); ?>
+        <?php if (!empty($successMessages)): ?>
+            <div class="alert alert-success">
+                <ul>
+                    <?php foreach ($successMessages as $successMessage) : ?>
+                        <li> <?= $successMessage; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+        <?php $infoMessages = array_merge($statusMessages->getInfoMessages(), $this->flashMessenger()->getMessages('info')); ?>
+        <?php if (!empty($infoMessages)): ?>
+            <div class="alert alert-info">
+                <ul>
+                    <?php foreach ($infoMessages as $infoMessage) : ?>
+                        <li> <?= $infoMessage; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>-->
+    <?php endif; ?>
+    <?= $this->content; ?>
+
+    <footer>
+        <p>&copy; 2016 - <?= date('Y') ?> by Magyar Bertalan Márton - All rights reserved.</p>
+    </footer>
+</div>
+<?= $this->inlineScript() ?>
+</body>
+</html>

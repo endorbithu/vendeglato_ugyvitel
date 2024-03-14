@@ -1,0 +1,144 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: stellar
+ * Date: 2016.10.12.
+ * Time: 13:08
+ */
+?>
+
+<h1><?= $this->translate("Törzsadatok"); ?></h1>
+
+
+<div class="row">
+    <div class="col-lg-6">
+        <table class="table menulist">
+            <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'product']) ?>">
+                        <?= $this->translate('Termékek'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'productgroup']) ?>">
+                        <?= $this->translate('Termékekcsoportok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'vatgroup']) ?>">
+                        <?= $this->translate('ÁFA kategóriák'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="table menulist">
+            <tbody>
+
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'ingredient']) ?>">
+                        <?= $this->translate('Alapanyagok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'ingredientgroup']) ?>">
+                        <?= $this->translate('Alapanyagcsoportok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'ingredientunit']) ?>">
+                        <?= $this->translate('Alapanyag mértékegységek'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="table menulist">
+            <tbody>
+
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'money']) ?>">
+                        <?= $this->translate('Pénzeszközök'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'moneygroup']) ?>">
+                        <?= $this->translate('Pénzeszközcsoportok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'moneyunit']) ?>">
+                        <?= $this->translate('Pénznemek'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="table menulist">
+            <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'tool']) ?>">
+                        <?= $this->translate('Eszközök'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'toolgroup']) ?>">
+                        <?= $this->translate('Eszközcsoportok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'toolunit']) ?>">
+                        <?= $this->translate('Eszköz mértékegységek'); ?></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <table class="table menulist">
+            <tbody>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'storage']) ?>">
+                        <?= $this->translate('Tárolók'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'storagetype']) ?>">
+                        <?= $this->translate('Tárolótípusok'); ?></a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="glyphicon glyphicon-chevron-right"></span>
+                    <a class="basedata-list"
+                       href="<?= $this->url('basedatacollection', ['action' => 'supplier']) ?>">
+                        <?= $this->translate('Beszállítók'); ?></a>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
