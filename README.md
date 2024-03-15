@@ -1,2 +1,3 @@
-# vendeglato_ugyvitel
-Vendéglátó ügyviteli rendszer (szakdolgozat)
+# Vendéglátó ügyviteli rendszer (szakdolgozat)
+https://ugyvitel.endorbit.hu/  
+Keretrendszer: Zend Framework 2 
